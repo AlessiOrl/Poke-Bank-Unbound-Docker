@@ -32,6 +32,33 @@ DO_NOT_DELETE_DIR = BASE_DIR / "DoNotDelete"
 DO_NOT_DELETE_DIR.mkdir(exist_ok=True)
 (DO_NOT_DELETE_DIR / "data").mkdir(exist_ok=True)
 
+# The most recently uploaded save is kept inside the container so it can be
+# loaded again without asking the browser for the original file.
+UPLOADS_DIR = DO_NOT_DELETE_DIR / "uploads"
+UPLOADS_DIR.mkdir(exist_ok=True)
+LAST_UPLOAD_FILE = UPLOADS_DIR / "last_uploaded.sav"
+LAST_UPLOAD_METADATA_FILE = UPLOADS_DIR / "last_uploaded.json"
+
+def save_last_upload(raw, filename):
+    """Atomically replace the saved copy and retain its display name."""
+    temp_file = UPLOADS_DIR / "last_uploaded.tmp"
+    temp_metadata = UPLOADS_DIR / "last_uploaded.json.tmp"
+    temp_file.write_bytes(raw)
+    temp_file.replace(LAST_UPLOAD_FILE)
+    temp_metadata.write_text(
+        json.dumps({"filename": Path(filename or "save.sav").name}),
+        encoding="utf-8",
+    )
+    temp_metadata.replace(LAST_UPLOAD_METADATA_FILE)
+
+def last_upload_name():
+    try:
+        return json.loads(LAST_UPLOAD_METADATA_FILE.read_text(encoding="utf-8")).get(
+            "filename", LAST_UPLOAD_FILE.name
+        )
+    except Exception:
+        return LAST_UPLOAD_FILE.name
+
 # ---------------------------------------------------------------------------
 # Constants (mirrors save_core.py)
 # ---------------------------------------------------------------------------
@@ -1579,7 +1606,7 @@ def assets(filename):
 # Paths under /api/ that work without a save being loaded (load the save,
 # work on vault/trade alone, or handle the missing-save case themselves).
 _SKIP_SAVE_CHECK = {
-    '/api/load', '/api/load_recent',
+    '/api/load', '/api/load_recent', '/api/load_last_upload', '/api/last_upload_status',
     '/api/undo',             # owns its own "no save" logic
     '/api/status',           # reports whether a save is loaded
     '/api/has_porta_pc',     # returns False gracefully when no save
@@ -1622,6 +1649,7 @@ def ensure_db():
 _SKIP_UNDO_PATHS = {
     '/api/load',
     '/api/load_recent',
+    '/api/load_last_upload',
     '/api/undo',
     '/api/current_save',
     '/api/download',
@@ -1703,10 +1731,45 @@ def api_load():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+    try:
+        save_last_upload(raw, f.filename)
+    except OSError as e:
+        return jsonify({"error": f"Could not save uploaded file in the container: {e}"}), 500
+
     session["data"] = data
     session["sections"] = find_active_sections(data)
 
     return jsonify({"ok": True, "save": result, "filename": f.filename})
+
+@app.route("/api/last_upload_status")
+def api_last_upload_status():
+    """Report whether a container-stored upload is available on the start page."""
+    return jsonify({"available": LAST_UPLOAD_FILE.is_file(), "filename": last_upload_name()})
+
+@app.route("/api/load_last_upload", methods=["POST"])
+def api_load_last_upload():
+    """Load the last valid file uploaded to this container."""
+    if not LAST_UPLOAD_FILE.is_file():
+        return jsonify({"error": "No uploaded save file is stored in this container"}), 404
+
+    raw = LAST_UPLOAD_FILE.read_bytes()
+    if len(raw) not in (131072, 131088):
+        return jsonify({"error": f"Stored upload has unexpected file size {len(raw)}"}), 400
+
+    db = session.get('db') or load_databases()
+    if not db:
+        return jsonify({"error": "data/ directory not found. Place PUSE's backend/data/ folder next to app.py"}), 500
+
+    data = bytearray(raw)
+    try:
+        result = parse_save(data, db)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    session["db"] = db
+    session["data"] = data
+    session["sections"] = find_active_sections(data)
+    return jsonify({"ok": True, "save": result, "filename": last_upload_name()})
 
 @app.route("/api/move", methods=["POST"])
 def api_move():

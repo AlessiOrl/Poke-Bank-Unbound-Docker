@@ -16,6 +16,17 @@ export async function loadSave(file: File): Promise<SaveData> {
   return data.save
 }
 
+export interface LastUploadStatus { available: boolean; filename: string }
+
+export async function lastUploadStatus(): Promise<LastUploadStatus> {
+  return request<LastUploadStatus>('/api/last_upload_status')
+}
+
+export async function loadLastUpload(): Promise<SaveData> {
+  const data = await request<{ ok: boolean; save: SaveData }>('/api/load_last_upload', { method: 'POST' })
+  return data.save
+}
+
 export async function undo(): Promise<SaveData> {
   const data = await request<{ ok: boolean; save: SaveData }>('/api/undo', { method: 'POST' })
   return data.save

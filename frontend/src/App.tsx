@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { SaveData, NavTab } from './types/pokemon'
-import { loadSave, downloadSave, checkPortaPc, checkUpdate, type UpdateInfo } from './api/client'
+import { loadSave, loadLastUpload, lastUploadStatus, downloadSave, checkPortaPc, checkUpdate, type UpdateInfo } from './api/client'
 import { BankView } from './views/BankView'
 import { DexView } from './views/DexView'
 import { VaultView } from './views/VaultView'
@@ -17,6 +17,11 @@ export default function App() {
   const [hasPortaPc, setHasPortaPc] = useState(false)
   const [updateInfo, setUpdateInfo] = useState<UpdateInfo | null>(null)
   const [checkingUpdate, setCheckingUpdate] = useState(false)
+  const [lastUpload, setLastUpload] = useState<{ available: boolean; filename: string }>({ available: false, filename: '' })
+
+  useEffect(() => {
+    lastUploadStatus().then(setLastUpload).catch(() => setLastUpload({ available: false, filename: '' }))
+  }, [])
 
   async function handleCheckUpdate() {
     setCheckingUpdate(true)
@@ -43,9 +48,25 @@ export default function App() {
       const data = await loadSave(file)
       setSaveData(data)
       setHasChanges(false)
+      setLastUpload({ available: true, filename: file.name })
       checkPortaPc().then(setHasPortaPc).catch(() => setHasPortaPc(false))
     } catch (err) {
       setError((err as Error).message || 'Failed to load save')
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  async function handleLoadLastUpload() {
+    setLoading(true)
+    setError('')
+    try {
+      const data = await loadLastUpload()
+      setSaveData(data)
+      setHasChanges(false)
+      checkPortaPc().then(setHasPortaPc).catch(() => setHasPortaPc(false))
+    } catch (err) {
+      setError((err as Error).message || 'Failed to load last uploaded save')
     } finally {
       setLoading(false)
     }
@@ -109,6 +130,19 @@ export default function App() {
             className="hidden"
             onChange={e => { if (e.target.files?.[0]) handleFile(e.target.files[0]) }}
           />
+        </div>
+
+        <div className="w-80 text-center">
+          <button
+            className="w-full rounded-lg border border-blue-600 bg-blue-700 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-40"
+            onClick={handleLoadLastUpload}
+            disabled={!lastUpload.available || loading}
+          >
+            Load Last File
+          </button>
+          <p className="mt-2 text-xs text-slate-400">
+            {lastUpload.available ? `Stored in this container: ${lastUpload.filename}` : 'No file has been uploaded to this container yet'}
+          </p>
         </div>
 
         {error && <div className="text-red-400 text-sm">{error}</div>}
