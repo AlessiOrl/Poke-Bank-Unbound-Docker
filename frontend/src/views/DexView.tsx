@@ -10,6 +10,28 @@ const ALL_TYPES = [
 type Filter = 'all' | 'caught' | 'seen' | 'missing' | 'evolve'
 type DexTab = 'national' | 'borrius'
 
+// These forms share a display name with another entry or use a more specific wiki page.
+const WIKI_SLUG_OVERRIDES: Record<number, string> = {
+  962: 'lycanroc-midday',
+  1023: 'alolan-sandshrew',
+  1024: 'alolan-sandslash',
+  1184: 'urshifu-single',
+}
+
+function wikiSlug(id: number, name: string): string {
+  if (WIKI_SLUG_OVERRIDES[id]) return WIKI_SLUG_OVERRIDES[id]
+  return name
+    .replace(/♀/g, '-f')
+    .replace(/♂/g, '-m')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[’']/g, '')
+    .replace(/\?/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+}
+
 interface SpeciesCard {
   id: number
   entry: DexSpeciesEntry
@@ -38,7 +60,6 @@ export function DexView() {
   const [selectedId, setSelectedId] = useState<number | null>(null)
 
   useEffect(() => {
-    setLoading(true)
     Promise.all([
       dexFlags(),
       dexSpeciesJson(),
@@ -327,9 +348,27 @@ export function DexView() {
                       </ul>
                     </div>
                   )}
+                  <div className="mt-4 flex gap-2">
+                    <a
+                      href={`https://ydarissep.github.io/Unbound-Pokedex/?species=${encodeURIComponent(card.entry.speciesKey)}&`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 py-2 bg-blue-700 hover:bg-blue-600 text-white rounded text-xs font-semibold text-center transition-colors"
+                    >
+                      Yda Dex ↗
+                    </a>
+                    <a
+                      href={`https://unboundwiki.com/pokemon/${wikiSlug(card.id, card.entry.name)}/`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 py-2 bg-blue-700 hover:bg-blue-600 text-white rounded text-xs font-semibold text-center transition-colors"
+                    >
+                      Unbound Wiki ↗
+                    </a>
+                  </div>
                   <button
                     onClick={() => setSelectedId(null)}
-                    className="mt-4 w-full py-2 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs font-semibold transition-colors"
+                    className="mt-2 w-full py-2 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs font-semibold transition-colors"
                   >
                     Close
                   </button>

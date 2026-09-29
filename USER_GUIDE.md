@@ -123,6 +123,8 @@ The header shows:
 
 Click a Pokémon card to see more info (if spoilers are off for unseen Pokémon, only the ID shows until you catch/see it).
 
+In the detail popup, click **Yda Dex** or **Unbound Wiki** to open that Pokémon's page in a new tab.
+
 ## Trade Tab
 
 The **Trade** feature lets you view and manage Pokémon trades with other players.

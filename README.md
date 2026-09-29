@@ -38,6 +38,17 @@ python app.py
 
 Your save file is exported from your emulator — in mGBA use *File → Export Save*.
 
+### Docker
+
+From the repository root:
+
+```sh
+docker build -f dockerfile -t unboundbank:test .
+docker run --rm --name unboundbank -p 127.0.0.1:5000:5000 -v unboundbank-data:/app/DoNotDelete unboundbank:test
+```
+
+Open `http://localhost:5000`, upload a save, then open the Pokédex and click a Pokémon to test its external links. Stop the container with `Ctrl+C`. The named volume keeps saved app data between runs.
+
 ---
 ## 2.0.0 Updates
 ### So many new features to announce

@@ -271,7 +271,7 @@ export async function evoTable(): Promise<Record<string, number[]>> {
   return data.evo_table
 }
 
-export interface DexSpeciesEntry { name: string; national: number; borrius: number }
+export interface DexSpeciesEntry { name: string; national: number; borrius: number; speciesKey: string }
 
 export async function dexSpeciesJson(): Promise<Record<string, DexSpeciesEntry>> {
   const resp = await fetch('/dex_species.json')

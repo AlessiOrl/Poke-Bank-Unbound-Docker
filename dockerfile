@@ -23,7 +23,7 @@ COPY . .
 
 # Build the landing-page changes from source rather than relying on a stale
 # checked-in static bundle.
-COPY --from=frontend-builder /frontend/dist ./static/dist
+COPY --from=frontend-builder /static/dist ./static/dist
 
 VOLUME ["/app/DoNotDelete"]
 

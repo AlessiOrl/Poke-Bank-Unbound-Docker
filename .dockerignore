@@ -1,0 +1,7 @@
+.git
+frontend/node_modules
+frontend/dist
+static/dist
+DoNotDelete
+**/__pycache__
+*.pyc

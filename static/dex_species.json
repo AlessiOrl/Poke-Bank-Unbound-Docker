@@ -2,4466 +2,5359 @@
   "1": {
     "name": "Bulbasaur",
     "national": 1,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BULBASAUR"
   },
   "2": {
     "name": "Ivysaur",
     "national": 2,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_IVYSAUR"
   },
   "3": {
     "name": "Venusaur",
     "national": 3,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VENUSAUR"
   },
   "4": {
     "name": "Charmander",
     "national": 4,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHARMANDER"
   },
   "5": {
     "name": "Charmeleon",
     "national": 5,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHARMELEON"
   },
   "6": {
     "name": "Charizard",
     "national": 6,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHARIZARD"
   },
   "7": {
     "name": "Squirtle",
     "national": 7,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SQUIRTLE"
   },
   "8": {
     "name": "Wartortle",
     "national": 8,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WARTORTLE"
   },
   "9": {
     "name": "Blastoise",
     "national": 9,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BLASTOISE"
   },
   "10": {
     "name": "Caterpie",
     "national": 10,
-    "borrius": 93
+    "borrius": 93,
+    "speciesKey": "SPECIES_CATERPIE"
   },
   "11": {
     "name": "Metapod",
     "national": 11,
-    "borrius": 94
+    "borrius": 94,
+    "speciesKey": "SPECIES_METAPOD"
   },
   "12": {
     "name": "Butterfree",
     "national": 12,
-    "borrius": 95
+    "borrius": 95,
+    "speciesKey": "SPECIES_BUTTERFREE"
   },
   "13": {
     "name": "Weedle",
     "national": 13,
-    "borrius": 96
+    "borrius": 96,
+    "speciesKey": "SPECIES_WEEDLE"
   },
   "14": {
     "name": "Kakuna",
     "national": 14,
-    "borrius": 97
+    "borrius": 97,
+    "speciesKey": "SPECIES_KAKUNA"
   },
   "15": {
     "name": "Beedrill",
     "national": 15,
-    "borrius": 98
+    "borrius": 98,
+    "speciesKey": "SPECIES_BEEDRILL"
   },
   "16": {
     "name": "Pidgey",
     "national": 16,
-    "borrius": 467
+    "borrius": 467,
+    "speciesKey": "SPECIES_PIDGEY"
   },
   "17": {
     "name": "Pidgeotto",
     "national": 17,
-    "borrius": 468
+    "borrius": 468,
+    "speciesKey": "SPECIES_PIDGEOTTO"
   },
   "18": {
     "name": "Pidgeot",
     "national": 18,
-    "borrius": 469
+    "borrius": 469,
+    "speciesKey": "SPECIES_PIDGEOT"
   },
   "19": {
     "name": "Rattata",
     "national": 19,
-    "borrius": 39
+    "borrius": 39,
+    "speciesKey": "SPECIES_RATTATA"
   },
   "20": {
     "name": "Raticate",
     "national": 20,
-    "borrius": 40
+    "borrius": 40,
+    "speciesKey": "SPECIES_RATICATE"
   },
   "21": {
     "name": "Spearow",
     "national": 21,
-    "borrius": 239
+    "borrius": 239,
+    "speciesKey": "SPECIES_SPEAROW"
   },
   "22": {
     "name": "Fearow",
     "national": 22,
-    "borrius": 240
+    "borrius": 240,
+    "speciesKey": "SPECIES_FEAROW"
   },
   "23": {
     "name": "Ekans",
     "national": 23,
-    "borrius": 123
+    "borrius": 123,
+    "speciesKey": "SPECIES_EKANS"
   },
   "24": {
     "name": "Arbok",
     "national": 24,
-    "borrius": 124
+    "borrius": 124,
+    "speciesKey": "SPECIES_ARBOK"
   },
   "25": {
     "name": "Pikachu",
     "national": 25,
-    "borrius": 447
+    "borrius": 447,
+    "speciesKey": "SPECIES_PIKACHU"
   },
   "26": {
     "name": "Raichu",
     "national": 26,
-    "borrius": 448
+    "borrius": 448,
+    "speciesKey": "SPECIES_RAICHU"
   },
   "27": {
     "name": "Sandshrew",
     "national": 27,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SANDSHREW"
   },
   "28": {
     "name": "Sandslash",
     "national": 28,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SANDSLASH"
   },
   "30": {
     "name": "Nidorina",
     "national": 30,
-    "borrius": 162
+    "borrius": 162,
+    "speciesKey": "SPECIES_NIDORINA"
   },
   "31": {
     "name": "Nidoqueen",
     "national": 31,
-    "borrius": 163
+    "borrius": 163,
+    "speciesKey": "SPECIES_NIDOQUEEN"
   },
   "33": {
     "name": "Nidorino",
     "national": 33,
-    "borrius": 159
+    "borrius": 159,
+    "speciesKey": "SPECIES_NIDORINO"
   },
   "34": {
     "name": "Nidoking",
     "national": 34,
-    "borrius": 160
+    "borrius": 160,
+    "speciesKey": "SPECIES_NIDOKING"
   },
   "35": {
     "name": "Clefairy",
     "national": 35,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CLEFAIRY"
   },
   "36": {
     "name": "Clefable",
     "national": 36,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CLEFABLE"
   },
   "37": {
     "name": "Vulpix",
     "national": 37,
-    "borrius": 150
+    "borrius": 150,
+    "speciesKey": "SPECIES_VULPIX"
   },
   "38": {
     "name": "Ninetales",
     "national": 38,
-    "borrius": 151
+    "borrius": 151,
+    "speciesKey": "SPECIES_NINETALES"
   },
   "39": {
     "name": "Jigglypuff",
     "national": 39,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_JIGGLYPUFF"
   },
   "40": {
     "name": "Wigglytuff",
     "national": 40,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WIGGLYTUFF"
   },
   "41": {
     "name": "Zubat",
     "national": 41,
-    "borrius": 9
+    "borrius": 9,
+    "speciesKey": "SPECIES_ZUBAT"
   },
   "42": {
     "name": "Golbat",
     "national": 42,
-    "borrius": 10
+    "borrius": 10,
+    "speciesKey": "SPECIES_GOLBAT"
   },
   "43": {
     "name": "Oddish",
     "national": 43,
-    "borrius": 409
+    "borrius": 409,
+    "speciesKey": "SPECIES_ODDISH"
   },
   "44": {
     "name": "Gloom",
     "national": 44,
-    "borrius": 410
+    "borrius": 410,
+    "speciesKey": "SPECIES_GLOOM"
   },
   "45": {
     "name": "Vileplume",
     "national": 45,
-    "borrius": 411
+    "borrius": 411,
+    "speciesKey": "SPECIES_VILEPLUME"
   },
   "46": {
     "name": "Paras",
     "national": 46,
-    "borrius": 440
+    "borrius": 440,
+    "speciesKey": "SPECIES_PARAS"
   },
   "47": {
     "name": "Parasect",
     "national": 47,
-    "borrius": 441
+    "borrius": 441,
+    "speciesKey": "SPECIES_PARASECT"
   },
   "48": {
     "name": "Venonat",
     "national": 48,
-    "borrius": 170
+    "borrius": 170,
+    "speciesKey": "SPECIES_VENONAT"
   },
   "49": {
     "name": "Venomoth",
     "national": 49,
-    "borrius": 171
+    "borrius": 171,
+    "speciesKey": "SPECIES_VENOMOTH"
   },
   "50": {
     "name": "Diglett",
     "national": 50,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DIGLETT"
   },
   "51": {
     "name": "Dugtrio",
     "national": 51,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DUGTRIO"
   },
   "52": {
     "name": "Meowth",
     "national": 52,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MEOWTH"
   },
   "53": {
     "name": "Persian",
     "national": 53,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PERSIAN"
   },
   "54": {
     "name": "Psyduck",
     "national": 54,
-    "borrius": 329
+    "borrius": 329,
+    "speciesKey": "SPECIES_PSYDUCK"
   },
   "55": {
     "name": "Golduck",
     "national": 55,
-    "borrius": 330
+    "borrius": 330,
+    "speciesKey": "SPECIES_GOLDUCK"
   },
   "56": {
     "name": "Mankey",
     "national": 56,
-    "borrius": 127
+    "borrius": 127,
+    "speciesKey": "SPECIES_MANKEY"
   },
   "57": {
     "name": "Primeape",
     "national": 57,
-    "borrius": 128
+    "borrius": 128,
+    "speciesKey": "SPECIES_PRIMEAPE"
   },
   "58": {
     "name": "Growlithe",
     "national": 58,
-    "borrius": 164
+    "borrius": 164,
+    "speciesKey": "SPECIES_GROWLITHE"
   },
   "59": {
     "name": "Arcanine",
     "national": 59,
-    "borrius": 165
+    "borrius": 165,
+    "speciesKey": "SPECIES_ARCANINE"
   },
   "60": {
     "name": "Poliwag",
     "national": 60,
-    "borrius": 325
+    "borrius": 325,
+    "speciesKey": "SPECIES_POLIWAG"
   },
   "61": {
     "name": "Poliwhirl",
     "national": 61,
-    "borrius": 326
+    "borrius": 326,
+    "speciesKey": "SPECIES_POLIWHIRL"
   },
   "62": {
     "name": "Poliwrath",
     "national": 62,
-    "borrius": 327
+    "borrius": 327,
+    "speciesKey": "SPECIES_POLIWRATH"
   },
   "63": {
     "name": "Abra",
     "national": 63,
-    "borrius": 211
+    "borrius": 211,
+    "speciesKey": "SPECIES_ABRA"
   },
   "64": {
     "name": "Kadabra",
     "national": 64,
-    "borrius": 212
+    "borrius": 212,
+    "speciesKey": "SPECIES_KADABRA"
   },
   "65": {
     "name": "Alakazam",
     "national": 65,
-    "borrius": 213
+    "borrius": 213,
+    "speciesKey": "SPECIES_ALAKAZAM"
   },
   "66": {
     "name": "Machop",
     "national": 66,
-    "borrius": 318
+    "borrius": 318,
+    "speciesKey": "SPECIES_MACHOP"
   },
   "67": {
     "name": "Machoke",
     "national": 67,
-    "borrius": 319
+    "borrius": 319,
+    "speciesKey": "SPECIES_MACHOKE"
   },
   "68": {
     "name": "Machamp",
     "national": 68,
-    "borrius": 320
+    "borrius": 320,
+    "speciesKey": "SPECIES_MACHAMP"
   },
   "69": {
     "name": "Bellsprout",
     "national": 69,
-    "borrius": 406
+    "borrius": 406,
+    "speciesKey": "SPECIES_BELLSPROUT"
   },
   "70": {
     "name": "Weepinbell",
     "national": 70,
-    "borrius": 407
+    "borrius": 407,
+    "speciesKey": "SPECIES_WEEPINBELL"
   },
   "71": {
     "name": "Victreebel",
     "national": 71,
-    "borrius": 408
+    "borrius": 408,
+    "speciesKey": "SPECIES_VICTREEBEL"
   },
   "72": {
     "name": "Tentacool",
     "national": 72,
-    "borrius": 388
+    "borrius": 388,
+    "speciesKey": "SPECIES_TENTACOOL"
   },
   "73": {
     "name": "Tentacruel",
     "national": 73,
-    "borrius": 389
+    "borrius": 389,
+    "speciesKey": "SPECIES_TENTACRUEL"
   },
   "74": {
     "name": "Geodude",
     "national": 74,
-    "borrius": 142
+    "borrius": 142,
+    "speciesKey": "SPECIES_GEODUDE"
   },
   "75": {
     "name": "Graveler",
     "national": 75,
-    "borrius": 143
+    "borrius": 143,
+    "speciesKey": "SPECIES_GRAVELER"
   },
   "76": {
     "name": "Golem",
     "national": 76,
-    "borrius": 144
+    "borrius": 144,
+    "speciesKey": "SPECIES_GOLEM"
   },
   "77": {
     "name": "Ponyta",
     "national": 77,
-    "borrius": 336
+    "borrius": 336,
+    "speciesKey": "SPECIES_PONYTA"
   },
   "78": {
     "name": "Rapidash",
     "national": 78,
-    "borrius": 337
+    "borrius": 337,
+    "speciesKey": "SPECIES_RAPIDASH"
   },
   "79": {
     "name": "Slowpoke",
     "national": 79,
-    "borrius": 403
+    "borrius": 403,
+    "speciesKey": "SPECIES_SLOWPOKE"
   },
   "80": {
     "name": "Slowbro",
     "national": 80,
-    "borrius": 404
+    "borrius": 404,
+    "speciesKey": "SPECIES_SLOWBRO"
   },
   "81": {
     "name": "Magnemite",
     "national": 81,
-    "borrius": 295
+    "borrius": 295,
+    "speciesKey": "SPECIES_MAGNEMITE"
   },
   "82": {
     "name": "Magneton",
     "national": 82,
-    "borrius": 296
+    "borrius": 296,
+    "speciesKey": "SPECIES_MAGNETON"
   },
   "83": {
     "name": "Farfetch'd",
     "national": 83,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FARFETCHD"
   },
   "84": {
     "name": "Doduo",
     "national": 84,
-    "borrius": 207
+    "borrius": 207,
+    "speciesKey": "SPECIES_DODUO"
   },
   "85": {
     "name": "Dodrio",
     "national": 85,
-    "borrius": 208
+    "borrius": 208,
+    "speciesKey": "SPECIES_DODRIO"
   },
   "86": {
     "name": "Seel",
     "national": 86,
-    "borrius": 277
+    "borrius": 277,
+    "speciesKey": "SPECIES_SEEL"
   },
   "87": {
     "name": "Dewgong",
     "national": 87,
-    "borrius": 278
+    "borrius": 278,
+    "speciesKey": "SPECIES_DEWGONG"
   },
   "88": {
     "name": "Grimer",
     "national": 88,
-    "borrius": 459
+    "borrius": 459,
+    "speciesKey": "SPECIES_GRIMER"
   },
   "89": {
     "name": "Muk",
     "national": 89,
-    "borrius": 460
+    "borrius": 460,
+    "speciesKey": "SPECIES_MUK"
   },
   "90": {
     "name": "Shellder",
     "national": 90,
-    "borrius": 279
+    "borrius": 279,
+    "speciesKey": "SPECIES_SHELLDER"
   },
   "91": {
     "name": "Cloyster",
     "national": 91,
-    "borrius": 280
+    "borrius": 280,
+    "speciesKey": "SPECIES_CLOYSTER"
   },
   "92": {
     "name": "Gastly",
     "national": 92,
-    "borrius": 104
+    "borrius": 104,
+    "speciesKey": "SPECIES_GASTLY"
   },
   "93": {
     "name": "Haunter",
     "national": 93,
-    "borrius": 105
+    "borrius": 105,
+    "speciesKey": "SPECIES_HAUNTER"
   },
   "94": {
     "name": "Gengar",
     "national": 94,
-    "borrius": 106
+    "borrius": 106,
+    "speciesKey": "SPECIES_GENGAR"
   },
   "95": {
     "name": "Onix",
     "national": 95,
-    "borrius": 227
+    "borrius": 227,
+    "speciesKey": "SPECIES_ONIX"
   },
   "96": {
     "name": "Drowzee",
     "national": 96,
-    "borrius": 219
+    "borrius": 219,
+    "speciesKey": "SPECIES_DROWZEE"
   },
   "97": {
     "name": "Hypno",
     "national": 97,
-    "borrius": 220
+    "borrius": 220,
+    "speciesKey": "SPECIES_HYPNO"
   },
   "98": {
     "name": "Krabby",
     "national": 98,
-    "borrius": 70
+    "borrius": 70,
+    "speciesKey": "SPECIES_KRABBY"
   },
   "99": {
     "name": "Kingler",
     "national": 99,
-    "borrius": 71
+    "borrius": 71,
+    "speciesKey": "SPECIES_KINGLER"
   },
   "100": {
     "name": "Voltorb",
     "national": 100,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VOLTORB"
   },
   "101": {
     "name": "Electrode",
     "national": 101,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ELECTRODE"
   },
   "102": {
     "name": "Exeggcute",
     "national": 102,
-    "borrius": 264
+    "borrius": 264,
+    "speciesKey": "SPECIES_EXEGGCUTE"
   },
   "103": {
     "name": "Exeggutor",
     "national": 103,
-    "borrius": 265
+    "borrius": 265,
+    "speciesKey": "SPECIES_EXEGGUTOR"
   },
   "104": {
     "name": "Cubone",
     "national": 104,
-    "borrius": 298
+    "borrius": 298,
+    "speciesKey": "SPECIES_CUBONE"
   },
   "105": {
     "name": "Marowak",
     "national": 105,
-    "borrius": 299
+    "borrius": 299,
+    "speciesKey": "SPECIES_MAROWAK"
   },
   "106": {
     "name": "Hitmonlee",
     "national": 106,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HITMONLEE"
   },
   "107": {
     "name": "Hitmonchan",
     "national": 107,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HITMONCHAN"
   },
   "108": {
     "name": "Lickitung",
     "national": 108,
-    "borrius": 156
+    "borrius": 156,
+    "speciesKey": "SPECIES_LICKITUNG"
   },
   "109": {
     "name": "Koffing",
     "national": 109,
-    "borrius": 461
+    "borrius": 461,
+    "speciesKey": "SPECIES_KOFFING"
   },
   "110": {
     "name": "Weezing",
     "national": 110,
-    "borrius": 462
+    "borrius": 462,
+    "speciesKey": "SPECIES_WEEZING"
   },
   "111": {
     "name": "Rhyhorn",
     "national": 111,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RHYHORN"
   },
   "112": {
     "name": "Rhydon",
     "national": 112,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RHYDON"
   },
   "113": {
     "name": "Chansey",
     "national": 113,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHANSEY"
   },
   "114": {
     "name": "Tangela",
     "national": 114,
-    "borrius": 449
+    "borrius": 449,
+    "speciesKey": "SPECIES_TANGELA"
   },
   "115": {
     "name": "Kangaskhan",
     "national": 115,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KANGASKHAN"
   },
   "116": {
     "name": "Horsea",
     "national": 116,
-    "borrius": 377
+    "borrius": 377,
+    "speciesKey": "SPECIES_HORSEA"
   },
   "117": {
     "name": "Seadra",
     "national": 117,
-    "borrius": 378
+    "borrius": 378,
+    "speciesKey": "SPECIES_SEADRA"
   },
   "118": {
     "name": "Goldeen",
     "national": 118,
-    "borrius": 285
+    "borrius": 285,
+    "speciesKey": "SPECIES_GOLDEEN"
   },
   "119": {
     "name": "Seaking",
     "national": 119,
-    "borrius": 286
+    "borrius": 286,
+    "speciesKey": "SPECIES_SEAKING"
   },
   "120": {
     "name": "Staryu",
     "national": 120,
-    "borrius": 281
+    "borrius": 281,
+    "speciesKey": "SPECIES_STARYU"
   },
   "121": {
     "name": "Starmie",
     "national": 121,
-    "borrius": 282
+    "borrius": 282,
+    "speciesKey": "SPECIES_STARMIE"
   },
   "122": {
     "name": "Mr? Mime",
     "national": 122,
-    "borrius": 222
+    "borrius": 222,
+    "speciesKey": "SPECIES_MR_MIME"
   },
   "123": {
     "name": "Scyther",
     "national": 123,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SCYTHER"
   },
   "124": {
     "name": "Jynx",
     "national": 124,
-    "borrius": 18
+    "borrius": 18,
+    "speciesKey": "SPECIES_JYNX"
   },
   "125": {
     "name": "Electabuzz",
     "national": 125,
-    "borrius": 304
+    "borrius": 304,
+    "speciesKey": "SPECIES_ELECTABUZZ"
   },
   "126": {
     "name": "Magmar",
     "national": 126,
-    "borrius": 147
+    "borrius": 147,
+    "speciesKey": "SPECIES_MAGMAR"
   },
   "127": {
     "name": "Pinsir",
     "national": 127,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PINSIR"
   },
   "128": {
     "name": "Tauros",
     "national": 128,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TAUROS"
   },
   "129": {
     "name": "Magikarp",
     "national": 129,
-    "borrius": 223
+    "borrius": 223,
+    "speciesKey": "SPECIES_MAGIKARP"
   },
   "130": {
     "name": "Gyarados",
     "national": 130,
-    "borrius": 224
+    "borrius": 224,
+    "speciesKey": "SPECIES_GYARADOS"
   },
   "131": {
     "name": "Lapras",
     "national": 131,
-    "borrius": 390
+    "borrius": 390,
+    "speciesKey": "SPECIES_LAPRAS"
   },
   "132": {
     "name": "Ditto",
     "national": 132,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DITTO"
   },
   "133": {
     "name": "Eevee",
     "national": 133,
-    "borrius": 355
+    "borrius": 355,
+    "speciesKey": "SPECIES_EEVEE"
   },
   "134": {
     "name": "Vaporeon",
     "national": 134,
-    "borrius": 356
+    "borrius": 356,
+    "speciesKey": "SPECIES_VAPOREON"
   },
   "135": {
     "name": "Jolteon",
     "national": 135,
-    "borrius": 357
+    "borrius": 357,
+    "speciesKey": "SPECIES_JOLTEON"
   },
   "136": {
     "name": "Flareon",
     "national": 136,
-    "borrius": 358
+    "borrius": 358,
+    "speciesKey": "SPECIES_FLAREON"
   },
   "137": {
     "name": "Porygon",
     "national": 137,
-    "borrius": 367
+    "borrius": 367,
+    "speciesKey": "SPECIES_PORYGON"
   },
   "138": {
     "name": "Omanyte",
     "national": 138,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_OMANYTE"
   },
   "139": {
     "name": "Omastar",
     "national": 139,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_OMASTAR"
   },
   "140": {
     "name": "Kabuto",
     "national": 140,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KABUTO"
   },
   "141": {
     "name": "Kabutops",
     "national": 141,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KABUTOPS"
   },
   "142": {
     "name": "Aerodactyl",
     "national": 142,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AERODACTYL"
   },
   "143": {
     "name": "Snorlax",
     "national": 143,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SNORLAX"
   },
   "144": {
     "name": "Articuno",
     "national": 144,
-    "borrius": 483
+    "borrius": 483,
+    "speciesKey": "SPECIES_ARTICUNO"
   },
   "145": {
     "name": "Zapdos",
     "national": 145,
-    "borrius": 484
+    "borrius": 484,
+    "speciesKey": "SPECIES_ZAPDOS"
   },
   "146": {
     "name": "Moltres",
     "national": 146,
-    "borrius": 485
+    "borrius": 485,
+    "speciesKey": "SPECIES_MOLTRES"
   },
   "147": {
     "name": "Dratini",
     "national": 147,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRATINI"
   },
   "148": {
     "name": "Dragonair",
     "national": 148,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRAGONAIR"
   },
   "149": {
     "name": "Dragonite",
     "national": 149,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRAGONITE"
   },
   "150": {
     "name": "Mewtwo",
     "national": 150,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MEWTWO"
   },
   "151": {
     "name": "Mew",
     "national": 151,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MEW"
   },
   "152": {
     "name": "Chikorita",
     "national": 152,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHIKORITA"
   },
   "153": {
     "name": "Bayleef",
     "national": 153,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BAYLEEF"
   },
   "154": {
     "name": "Meganium",
     "national": 154,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MEGANIUM"
   },
   "155": {
     "name": "Cyndaquil",
     "national": 155,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CYNDAQUIL"
   },
   "156": {
     "name": "Quilava",
     "national": 156,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_QUILAVA"
   },
   "157": {
     "name": "Typhlosion",
     "national": 157,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYPHLOSION"
   },
   "158": {
     "name": "Totodile",
     "national": 158,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOTODILE"
   },
   "159": {
     "name": "Croconaw",
     "national": 159,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CROCONAW"
   },
   "160": {
     "name": "Feraligatr",
     "national": 160,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FERALIGATR"
   },
   "161": {
     "name": "Sentret",
     "national": 161,
-    "borrius": 76
+    "borrius": 76,
+    "speciesKey": "SPECIES_SENTRET"
   },
   "162": {
     "name": "Furret",
     "national": 162,
-    "borrius": 77
+    "borrius": 77,
+    "speciesKey": "SPECIES_FURRET"
   },
   "163": {
     "name": "Hoothoot",
     "national": 163,
-    "borrius": 35
+    "borrius": 35,
+    "speciesKey": "SPECIES_HOOTHOOT"
   },
   "164": {
     "name": "Noctowl",
     "national": 164,
-    "borrius": 36
+    "borrius": 36,
+    "speciesKey": "SPECIES_NOCTOWL"
   },
   "165": {
     "name": "Ledyba",
     "national": 165,
-    "borrius": 191
+    "borrius": 191,
+    "speciesKey": "SPECIES_LEDYBA"
   },
   "166": {
     "name": "Ledian",
     "national": 166,
-    "borrius": 192
+    "borrius": 192,
+    "speciesKey": "SPECIES_LEDIAN"
   },
   "167": {
     "name": "Spinarak",
     "national": 167,
-    "borrius": 193
+    "borrius": 193,
+    "speciesKey": "SPECIES_SPINARAK"
   },
   "168": {
     "name": "Ariados",
     "national": 168,
-    "borrius": 194
+    "borrius": 194,
+    "speciesKey": "SPECIES_ARIADOS"
   },
   "169": {
     "name": "Crobat",
     "national": 169,
-    "borrius": 11
+    "borrius": 11,
+    "speciesKey": "SPECIES_CROBAT"
   },
   "170": {
     "name": "Chinchou",
     "national": 170,
-    "borrius": 316
+    "borrius": 316,
+    "speciesKey": "SPECIES_CHINCHOU"
   },
   "171": {
     "name": "Lanturn",
     "national": 171,
-    "borrius": 317
+    "borrius": 317,
+    "speciesKey": "SPECIES_LANTURN"
   },
   "172": {
     "name": "Pichu",
     "national": 172,
-    "borrius": 446
+    "borrius": 446,
+    "speciesKey": "SPECIES_PICHU"
   },
   "173": {
     "name": "Cleffa",
     "national": 173,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CLEFFA"
   },
   "174": {
     "name": "Igglybuff",
     "national": 174,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_IGGLYBUFF"
   },
   "175": {
     "name": "Togepi",
     "national": 175,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOGEPI"
   },
   "176": {
     "name": "Togetic",
     "national": 176,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOGETIC"
   },
   "177": {
     "name": "Natu",
     "national": 177,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NATU"
   },
   "178": {
     "name": "Xatu",
     "national": 178,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_XATU"
   },
   "179": {
     "name": "Mareep",
     "national": 179,
-    "borrius": 214
+    "borrius": 214,
+    "speciesKey": "SPECIES_MAREEP"
   },
   "180": {
     "name": "Flaaffy",
     "national": 180,
-    "borrius": 215
+    "borrius": 215,
+    "speciesKey": "SPECIES_FLAAFFY"
   },
   "181": {
     "name": "Ampharos",
     "national": 181,
-    "borrius": 216
+    "borrius": 216,
+    "speciesKey": "SPECIES_AMPHAROS"
   },
   "182": {
     "name": "Bellossom",
     "national": 182,
-    "borrius": 412
+    "borrius": 412,
+    "speciesKey": "SPECIES_BELLOSSOM"
   },
   "183": {
     "name": "Marill",
     "national": 183,
-    "borrius": 46
+    "borrius": 46,
+    "speciesKey": "SPECIES_MARILL"
   },
   "184": {
     "name": "Azumarill",
     "national": 184,
-    "borrius": 47
+    "borrius": 47,
+    "speciesKey": "SPECIES_AZUMARILL"
   },
   "185": {
     "name": "Sudowoodo",
     "national": 185,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SUDOWOODO"
   },
   "186": {
     "name": "Politoed",
     "national": 186,
-    "borrius": 328
+    "borrius": 328,
+    "speciesKey": "SPECIES_POLITOED"
   },
   "187": {
     "name": "Hoppip",
     "national": 187,
-    "borrius": 463
+    "borrius": 463,
+    "speciesKey": "SPECIES_HOPPIP"
   },
   "188": {
     "name": "Skiploom",
     "national": 188,
-    "borrius": 464
+    "borrius": 464,
+    "speciesKey": "SPECIES_SKIPLOOM"
   },
   "189": {
     "name": "Jumpluff",
     "national": 189,
-    "borrius": 465
+    "borrius": 465,
+    "speciesKey": "SPECIES_JUMPLUFF"
   },
   "190": {
     "name": "Aipom",
     "national": 190,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AIPOM"
   },
   "191": {
     "name": "Sunkern",
     "national": 191,
-    "borrius": 200
+    "borrius": 200,
+    "speciesKey": "SPECIES_SUNKERN"
   },
   "192": {
     "name": "Sunflora",
     "national": 192,
-    "borrius": 201
+    "borrius": 201,
+    "speciesKey": "SPECIES_SUNFLORA"
   },
   "193": {
     "name": "Yanma",
     "national": 193,
-    "borrius": 168
+    "borrius": 168,
+    "speciesKey": "SPECIES_YANMA"
   },
   "194": {
     "name": "Wooper",
     "national": 194,
-    "borrius": 321
+    "borrius": 321,
+    "speciesKey": "SPECIES_WOOPER"
   },
   "195": {
     "name": "Quagsire",
     "national": 195,
-    "borrius": 322
+    "borrius": 322,
+    "speciesKey": "SPECIES_QUAGSIRE"
   },
   "196": {
     "name": "Espeon",
     "national": 196,
-    "borrius": 359
+    "borrius": 359,
+    "speciesKey": "SPECIES_ESPEON"
   },
   "197": {
     "name": "Umbreon",
     "national": 197,
-    "borrius": 360
+    "borrius": 360,
+    "speciesKey": "SPECIES_UMBREON"
   },
   "198": {
     "name": "Murkrow",
     "national": 198,
-    "borrius": 154
+    "borrius": 154,
+    "speciesKey": "SPECIES_MURKROW"
   },
   "199": {
     "name": "Slowking",
     "national": 199,
-    "borrius": 405
+    "borrius": 405,
+    "speciesKey": "SPECIES_SLOWKING"
   },
   "200": {
     "name": "Misdreavus",
     "national": 200,
-    "borrius": 323
+    "borrius": 323,
+    "speciesKey": "SPECIES_MISDREAVUS"
   },
   "201": {
     "name": "Unown",
     "national": 201,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_UNOWN"
   },
   "202": {
     "name": "Wobbuffet",
     "national": 202,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WOBBUFFET"
   },
   "203": {
     "name": "Girafarig",
     "national": 203,
-    "borrius": 451
+    "borrius": 451,
+    "speciesKey": "SPECIES_GIRAFARIG"
   },
   "204": {
     "name": "Pineco",
     "national": 204,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PINECO"
   },
   "205": {
     "name": "Forretress",
     "national": 205,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FORRETRESS"
   },
   "206": {
     "name": "Dunsparce",
     "national": 206,
-    "borrius": 188
+    "borrius": 188,
+    "speciesKey": "SPECIES_DUNSPARCE"
   },
   "207": {
     "name": "Gligar",
     "national": 207,
-    "borrius": 186
+    "borrius": 186,
+    "speciesKey": "SPECIES_GLIGAR"
   },
   "208": {
     "name": "Steelix",
     "national": 208,
-    "borrius": 228
+    "borrius": 228,
+    "speciesKey": "SPECIES_STEELIX"
   },
   "209": {
     "name": "Snubbull",
     "national": 209,
-    "borrius": 338
+    "borrius": 338,
+    "speciesKey": "SPECIES_SNUBBULL"
   },
   "210": {
     "name": "Granbull",
     "national": 210,
-    "borrius": 339
+    "borrius": 339,
+    "speciesKey": "SPECIES_GRANBULL"
   },
   "211": {
     "name": "Qwilfish",
     "national": 211,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_QWILFISH"
   },
   "212": {
     "name": "Scizor",
     "national": 212,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SCIZOR"
   },
   "213": {
     "name": "Shuckle",
     "national": 213,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SHUCKLE"
   },
   "214": {
     "name": "Heracross",
     "national": 214,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HERACROSS"
   },
   "215": {
     "name": "Sneasel",
     "national": 215,
-    "borrius": 229
+    "borrius": 229,
+    "speciesKey": "SPECIES_SNEASEL"
   },
   "216": {
     "name": "Teddiursa",
     "national": 216,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TEDDIURSA"
   },
   "217": {
     "name": "Ursaring",
     "national": 217,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_URSARING"
   },
   "218": {
     "name": "Slugma",
     "national": 218,
-    "borrius": 138
+    "borrius": 138,
+    "speciesKey": "SPECIES_SLUGMA"
   },
   "219": {
     "name": "Magcargo",
     "national": 219,
-    "borrius": 139
+    "borrius": 139,
+    "speciesKey": "SPECIES_MAGCARGO"
   },
   "220": {
     "name": "Swinub",
     "national": 220,
-    "borrius": 22
+    "borrius": 22,
+    "speciesKey": "SPECIES_SWINUB"
   },
   "221": {
     "name": "Piloswine",
     "national": 221,
-    "borrius": 23
+    "borrius": 23,
+    "speciesKey": "SPECIES_PILOSWINE"
   },
   "222": {
     "name": "Corsola",
     "national": 222,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CORSOLA"
   },
   "223": {
     "name": "Remoraid",
     "national": 223,
-    "borrius": 287
+    "borrius": 287,
+    "speciesKey": "SPECIES_REMORAID"
   },
   "224": {
     "name": "Octillery",
     "national": 224,
-    "borrius": 288
+    "borrius": 288,
+    "speciesKey": "SPECIES_OCTILLERY"
   },
   "225": {
     "name": "Delibird",
     "national": 225,
-    "borrius": 7
+    "borrius": 7,
+    "speciesKey": "SPECIES_DELIBIRD"
   },
   "226": {
     "name": "Mantine",
     "national": 226,
-    "borrius": 393
+    "borrius": 393,
+    "speciesKey": "SPECIES_MANTINE"
   },
   "227": {
     "name": "Skarmory",
     "national": 227,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SKARMORY"
   },
   "228": {
     "name": "Houndour",
     "national": 228,
-    "borrius": 166
+    "borrius": 166,
+    "speciesKey": "SPECIES_HOUNDOUR"
   },
   "229": {
     "name": "Houndoom",
     "national": 229,
-    "borrius": 167
+    "borrius": 167,
+    "speciesKey": "SPECIES_HOUNDOOM"
   },
   "230": {
     "name": "Kingdra",
     "national": 230,
-    "borrius": 379
+    "borrius": 379,
+    "speciesKey": "SPECIES_KINGDRA"
   },
   "231": {
     "name": "Phanpy",
     "national": 231,
-    "borrius": 184
+    "borrius": 184,
+    "speciesKey": "SPECIES_PHANPY"
   },
   "232": {
     "name": "Donphan",
     "national": 232,
-    "borrius": 185
+    "borrius": 185,
+    "speciesKey": "SPECIES_DONPHAN"
   },
   "233": {
     "name": "Porygon2",
     "national": 233,
-    "borrius": 368
+    "borrius": 368,
+    "speciesKey": "SPECIES_PORYGON2"
   },
   "234": {
     "name": "Stantler",
     "national": 234,
-    "borrius": 236
+    "borrius": 236,
+    "speciesKey": "SPECIES_STANTLER"
   },
   "235": {
     "name": "Smeargle",
     "national": 235,
-    "borrius": 204
+    "borrius": 204,
+    "speciesKey": "SPECIES_SMEARGLE"
   },
   "236": {
     "name": "Tyrogue",
     "national": 236,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYROGUE"
   },
   "237": {
     "name": "Hitmontop",
     "national": 237,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HITMONTOP"
   },
   "238": {
     "name": "Smoochum",
     "national": 238,
-    "borrius": 17
+    "borrius": 17,
+    "speciesKey": "SPECIES_SMOOCHUM"
   },
   "239": {
     "name": "Elekid",
     "national": 239,
-    "borrius": 303
+    "borrius": 303,
+    "speciesKey": "SPECIES_ELEKID"
   },
   "240": {
     "name": "Magby",
     "national": 240,
-    "borrius": 146
+    "borrius": 146,
+    "speciesKey": "SPECIES_MAGBY"
   },
   "241": {
     "name": "Miltank",
     "national": 241,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MILTANK"
   },
   "242": {
     "name": "Blissey",
     "national": 242,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BLISSEY"
   },
   "243": {
     "name": "Raikou",
     "national": 243,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RAIKOU"
   },
   "244": {
     "name": "Entei",
     "national": 244,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ENTEI"
   },
   "245": {
     "name": "Suicune",
     "national": 245,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SUICUNE"
   },
   "246": {
     "name": "Larvitar",
     "national": 246,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LARVITAR"
   },
   "247": {
     "name": "Pupitar",
     "national": 247,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PUPITAR"
   },
   "248": {
     "name": "Tyranitar",
     "national": 248,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYRANITAR"
   },
   "249": {
     "name": "Lugia",
     "national": 249,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LUGIA"
   },
   "250": {
     "name": "Ho-Oh",
     "national": 250,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HO_OH"
   },
   "251": {
     "name": "Celebi",
     "national": 251,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CELEBI"
   },
   "277": {
     "name": "Treecko",
     "national": 252,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TREECKO"
   },
   "278": {
     "name": "Grovyle",
     "national": 253,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GROVYLE"
   },
   "279": {
     "name": "Sceptile",
     "national": 254,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SCEPTILE"
   },
   "280": {
     "name": "Torchic",
     "national": 255,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TORCHIC"
   },
   "281": {
     "name": "Combusken",
     "national": 256,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COMBUSKEN"
   },
   "282": {
     "name": "Blaziken",
     "national": 257,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BLAZIKEN"
   },
   "283": {
     "name": "Mudkip",
     "national": 258,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUDKIP"
   },
   "284": {
     "name": "Marshtomp",
     "national": 259,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MARSHTOMP"
   },
   "285": {
     "name": "Swampert",
     "national": 260,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SWAMPERT"
   },
   "286": {
     "name": "Poochyena",
     "national": 261,
-    "borrius": 56
+    "borrius": 56,
+    "speciesKey": "SPECIES_POOCHYENA"
   },
   "287": {
     "name": "Mightyena",
     "national": 262,
-    "borrius": 57
+    "borrius": 57,
+    "speciesKey": "SPECIES_MIGHTYENA"
   },
   "288": {
     "name": "Zigzagoon",
     "national": 263,
-    "borrius": 257
+    "borrius": 257,
+    "speciesKey": "SPECIES_ZIGZAGOON"
   },
   "289": {
     "name": "Linoone",
     "national": 264,
-    "borrius": 258
+    "borrius": 258,
+    "speciesKey": "SPECIES_LINOONE"
   },
   "290": {
     "name": "Wurmple",
     "national": 265,
-    "borrius": 428
+    "borrius": 428,
+    "speciesKey": "SPECIES_WURMPLE"
   },
   "291": {
     "name": "Silcoon",
     "national": 266,
-    "borrius": 429
+    "borrius": 429,
+    "speciesKey": "SPECIES_SILCOON"
   },
   "292": {
     "name": "Beautifly",
     "national": 267,
-    "borrius": 430
+    "borrius": 430,
+    "speciesKey": "SPECIES_BEAUTIFLY"
   },
   "293": {
     "name": "Cascoon",
     "national": 268,
-    "borrius": 431
+    "borrius": 431,
+    "speciesKey": "SPECIES_CASCOON"
   },
   "294": {
     "name": "Dustox",
     "national": 269,
-    "borrius": 432
+    "borrius": 432,
+    "speciesKey": "SPECIES_DUSTOX"
   },
   "295": {
     "name": "Lotad",
     "national": 270,
-    "borrius": 251
+    "borrius": 251,
+    "speciesKey": "SPECIES_LOTAD"
   },
   "296": {
     "name": "Lombre",
     "national": 271,
-    "borrius": 252
+    "borrius": 252,
+    "speciesKey": "SPECIES_LOMBRE"
   },
   "297": {
     "name": "Ludicolo",
     "national": 272,
-    "borrius": 253
+    "borrius": 253,
+    "speciesKey": "SPECIES_LUDICOLO"
   },
   "298": {
     "name": "Seedot",
     "national": 273,
-    "borrius": 99
+    "borrius": 99,
+    "speciesKey": "SPECIES_SEEDOT"
   },
   "299": {
     "name": "Nuzleaf",
     "national": 274,
-    "borrius": 100
+    "borrius": 100,
+    "speciesKey": "SPECIES_NUZLEAF"
   },
   "300": {
     "name": "Shiftry",
     "national": 275,
-    "borrius": 101
+    "borrius": 101,
+    "speciesKey": "SPECIES_SHIFTRY"
   },
   "304": {
     "name": "Taillow",
     "national": 276,
-    "borrius": 152
+    "borrius": 152,
+    "speciesKey": "SPECIES_TAILLOW"
   },
   "305": {
     "name": "Swellow",
     "national": 277,
-    "borrius": 153
+    "borrius": 153,
+    "speciesKey": "SPECIES_SWELLOW"
   },
   "309": {
     "name": "Wingull",
     "national": 278,
-    "borrius": 58
+    "borrius": 58,
+    "speciesKey": "SPECIES_WINGULL"
   },
   "310": {
     "name": "Pelipper",
     "national": 279,
-    "borrius": 59
+    "borrius": 59,
+    "speciesKey": "SPECIES_PELIPPER"
   },
   "392": {
     "name": "Ralts",
     "national": 280,
-    "borrius": 129
+    "borrius": 129,
+    "speciesKey": "SPECIES_RALTS"
   },
   "393": {
     "name": "Kirlia",
     "national": 281,
-    "borrius": 130
+    "borrius": 130,
+    "speciesKey": "SPECIES_KIRLIA"
   },
   "394": {
     "name": "Gardevoir",
     "national": 282,
-    "borrius": 131
+    "borrius": 131,
+    "speciesKey": "SPECIES_GARDEVOIR"
   },
   "311": {
     "name": "Surskit",
     "national": 283,
-    "borrius": 68
+    "borrius": 68,
+    "speciesKey": "SPECIES_SURSKIT"
   },
   "312": {
     "name": "Masquerain",
     "national": 284,
-    "borrius": 69
+    "borrius": 69,
+    "speciesKey": "SPECIES_MASQUERAIN"
   },
   "306": {
     "name": "Shroomish",
     "national": 285,
-    "borrius": 244
+    "borrius": 244,
+    "speciesKey": "SPECIES_SHROOMISH"
   },
   "307": {
     "name": "Breloom",
     "national": 286,
-    "borrius": 245
+    "borrius": 245,
+    "speciesKey": "SPECIES_BRELOOM"
   },
   "364": {
     "name": "Slakoth",
     "national": 287,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SLAKOTH"
   },
   "365": {
     "name": "Vigoroth",
     "national": 288,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VIGOROTH"
   },
   "366": {
     "name": "Slaking",
     "national": 289,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SLAKING"
   },
   "301": {
     "name": "Nincada",
     "national": 290,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NINCADA"
   },
   "302": {
     "name": "Ninjask",
     "national": 291,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NINJASK"
   },
   "303": {
     "name": "Shedinja",
     "national": 292,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SHEDINJA"
   },
   "370": {
     "name": "Whismur",
     "national": 293,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WHISMUR"
   },
   "371": {
     "name": "Loudred",
     "national": 294,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LOUDRED"
   },
   "372": {
     "name": "Exploud",
     "national": 295,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_EXPLOUD"
   },
   "335": {
     "name": "Makuhita",
     "national": 296,
-    "borrius": 12
+    "borrius": 12,
+    "speciesKey": "SPECIES_MAKUHITA"
   },
   "336": {
     "name": "Hariyama",
     "national": 297,
-    "borrius": 13
+    "borrius": 13,
+    "speciesKey": "SPECIES_HARIYAMA"
   },
   "350": {
     "name": "Azurill",
     "national": 298,
-    "borrius": 45
+    "borrius": 45,
+    "speciesKey": "SPECIES_AZURILL"
   },
   "320": {
     "name": "Nosepass",
     "national": 299,
-    "borrius": 179
+    "borrius": 179,
+    "speciesKey": "SPECIES_NOSEPASS"
   },
   "315": {
     "name": "Skitty",
     "national": 300,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SKITTY"
   },
   "316": {
     "name": "Delcatty",
     "national": 301,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DELCATTY"
   },
   "322": {
     "name": "Sableye",
     "national": 302,
-    "borrius": 384
+    "borrius": 384,
+    "speciesKey": "SPECIES_SABLEYE"
   },
   "355": {
     "name": "Mawile",
     "national": 303,
-    "borrius": 29
+    "borrius": 29,
+    "speciesKey": "SPECIES_MAWILE"
   },
   "382": {
     "name": "Aron",
     "national": 304,
-    "borrius": 176
+    "borrius": 176,
+    "speciesKey": "SPECIES_ARON"
   },
   "383": {
     "name": "Lairon",
     "national": 305,
-    "borrius": 177
+    "borrius": 177,
+    "speciesKey": "SPECIES_LAIRON"
   },
   "384": {
     "name": "Aggron",
     "national": 306,
-    "borrius": 178
+    "borrius": 178,
+    "speciesKey": "SPECIES_AGGRON"
   },
   "356": {
     "name": "Meditite",
     "national": 307,
-    "borrius": 271
+    "borrius": 271,
+    "speciesKey": "SPECIES_MEDITITE"
   },
   "357": {
     "name": "Medicham",
     "national": 308,
-    "borrius": 272
+    "borrius": 272,
+    "speciesKey": "SPECIES_MEDICHAM"
   },
   "337": {
     "name": "Electrike",
     "national": 309,
-    "borrius": 43
+    "borrius": 43,
+    "speciesKey": "SPECIES_ELECTRIKE"
   },
   "338": {
     "name": "Manectric",
     "national": 310,
-    "borrius": 44
+    "borrius": 44,
+    "speciesKey": "SPECIES_MANECTRIC"
   },
   "353": {
     "name": "Plusle",
     "national": 311,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PLUSLE"
   },
   "354": {
     "name": "Minun",
     "national": 312,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MINUN"
   },
   "386": {
     "name": "Volbeat",
     "national": 313,
-    "borrius": 475
+    "borrius": 475,
+    "speciesKey": "SPECIES_VOLBEAT"
   },
   "387": {
     "name": "Illumise",
     "national": 314,
-    "borrius": 476
+    "borrius": 476,
+    "speciesKey": "SPECIES_ILLUMISE"
   },
   "363": {
     "name": "Roselia",
     "national": 315,
-    "borrius": 121
+    "borrius": 121,
+    "speciesKey": "SPECIES_ROSELIA"
   },
   "367": {
     "name": "Gulpin",
     "national": 316,
-    "borrius": 273
+    "borrius": 273,
+    "speciesKey": "SPECIES_GULPIN"
   },
   "368": {
     "name": "Swalot",
     "national": 317,
-    "borrius": 274
+    "borrius": 274,
+    "speciesKey": "SPECIES_SWALOT"
   },
   "330": {
     "name": "Carvanha",
     "national": 318,
-    "borrius": 290
+    "borrius": 290,
+    "speciesKey": "SPECIES_CARVANHA"
   },
   "331": {
     "name": "Sharpedo",
     "national": 319,
-    "borrius": 291
+    "borrius": 291,
+    "speciesKey": "SPECIES_SHARPEDO"
   },
   "313": {
     "name": "Wailmer",
     "national": 320,
-    "borrius": 353
+    "borrius": 353,
+    "speciesKey": "SPECIES_WAILMER"
   },
   "314": {
     "name": "Wailord",
     "national": 321,
-    "borrius": 354
+    "borrius": 354,
+    "speciesKey": "SPECIES_WAILORD"
   },
   "339": {
     "name": "Numel",
     "national": 322,
-    "borrius": 125
+    "borrius": 125,
+    "speciesKey": "SPECIES_NUMEL"
   },
   "340": {
     "name": "Camerupt",
     "national": 323,
-    "borrius": 126
+    "borrius": 126,
+    "speciesKey": "SPECIES_CAMERUPT"
   },
   "321": {
     "name": "Torkoal",
     "national": 324,
-    "borrius": 145
+    "borrius": 145,
+    "speciesKey": "SPECIES_TORKOAL"
   },
   "351": {
     "name": "Spoink",
     "national": 325,
-    "borrius": 269
+    "borrius": 269,
+    "speciesKey": "SPECIES_SPOINK"
   },
   "352": {
     "name": "Grumpig",
     "national": 326,
-    "borrius": 270
+    "borrius": 270,
+    "speciesKey": "SPECIES_GRUMPIG"
   },
   "308": {
     "name": "Spinda",
     "national": 327,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SPINDA"
   },
   "332": {
     "name": "Trapinch",
     "national": 328,
-    "borrius": 424
+    "borrius": 424,
+    "speciesKey": "SPECIES_TRAPINCH"
   },
   "333": {
     "name": "Vibrava",
     "national": 329,
-    "borrius": 425
+    "borrius": 425,
+    "speciesKey": "SPECIES_VIBRAVA"
   },
   "334": {
     "name": "Flygon",
     "national": 330,
-    "borrius": 426
+    "borrius": 426,
+    "speciesKey": "SPECIES_FLYGON"
   },
   "344": {
     "name": "Cacnea",
     "national": 344,
-    "borrius": 418
+    "borrius": 418,
+    "speciesKey": "SPECIES_CACNEA"
   },
   "345": {
     "name": "Cacturne",
     "national": 345,
-    "borrius": 419
+    "borrius": 419,
+    "speciesKey": "SPECIES_CACTURNE"
   },
   "358": {
     "name": "Swablu",
     "national": 333,
-    "borrius": 266
+    "borrius": 266,
+    "speciesKey": "SPECIES_SWABLU"
   },
   "359": {
     "name": "Altaria",
     "national": 334,
-    "borrius": 267
+    "borrius": 267,
+    "speciesKey": "SPECIES_ALTARIA"
   },
   "380": {
     "name": "Zangoose",
     "national": 335,
-    "borrius": 470
+    "borrius": 470,
+    "speciesKey": "SPECIES_ZANGOOSE"
   },
   "379": {
     "name": "Seviper",
     "national": 336,
-    "borrius": 471
+    "borrius": 471,
+    "speciesKey": "SPECIES_SEVIPER"
   },
   "348": {
     "name": "Lunatone",
     "national": 337,
-    "borrius": 385
+    "borrius": 385,
+    "speciesKey": "SPECIES_LUNATONE"
   },
   "349": {
     "name": "Solrock",
     "national": 338,
-    "borrius": 386
+    "borrius": 386,
+    "speciesKey": "SPECIES_SOLROCK"
   },
   "323": {
     "name": "Barboach",
     "national": 339,
-    "borrius": 293
+    "borrius": 293,
+    "speciesKey": "SPECIES_BARBOACH"
   },
   "324": {
     "name": "Whiscash",
     "national": 340,
-    "borrius": 294
+    "borrius": 294,
+    "speciesKey": "SPECIES_WHISCASH"
   },
   "326": {
     "name": "Corphish",
     "national": 341,
-    "borrius": 283
+    "borrius": 283,
+    "speciesKey": "SPECIES_CORPHISH"
   },
   "327": {
     "name": "Crawdaunt",
     "national": 342,
-    "borrius": 284
+    "borrius": 284,
+    "speciesKey": "SPECIES_CRAWDAUNT"
   },
   "318": {
     "name": "Baltoy",
     "national": 343,
-    "borrius": 380
+    "borrius": 380,
+    "speciesKey": "SPECIES_BALTOY"
   },
   "319": {
     "name": "Claydol",
     "national": 344,
-    "borrius": 381
+    "borrius": 381,
+    "speciesKey": "SPECIES_CLAYDOL"
   },
   "388": {
     "name": "Lileep",
     "national": 345,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LILEEP"
   },
   "389": {
     "name": "Cradily",
     "national": 346,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CRADILY"
   },
   "390": {
     "name": "Anorith",
     "national": 347,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ANORITH"
   },
   "391": {
     "name": "Armaldo",
     "national": 348,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARMALDO"
   },
   "328": {
     "name": "Feebas",
     "national": 349,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FEEBAS"
   },
   "329": {
     "name": "Milotic",
     "national": 350,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MILOTIC"
   },
   "385": {
     "name": "Castform",
     "national": 351,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CASTFORM"
   },
   "317": {
     "name": "Kecleon",
     "national": 352,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KECLEON"
   },
   "377": {
     "name": "Shuppet",
     "national": 353,
-    "borrius": 107
+    "borrius": 107,
+    "speciesKey": "SPECIES_SHUPPET"
   },
   "378": {
     "name": "Banette",
     "national": 354,
-    "borrius": 108
+    "borrius": 108,
+    "speciesKey": "SPECIES_BANETTE"
   },
   "361": {
     "name": "Duskull",
     "national": 355,
-    "borrius": 109
+    "borrius": 109,
+    "speciesKey": "SPECIES_DUSKULL"
   },
   "362": {
     "name": "Dusclops",
     "national": 356,
-    "borrius": 110
+    "borrius": 110,
+    "speciesKey": "SPECIES_DUSCLOPS"
   },
   "369": {
     "name": "Tropius",
     "national": 357,
-    "borrius": 466
+    "borrius": 466,
+    "speciesKey": "SPECIES_TROPIUS"
   },
   "411": {
     "name": "Chimecho",
     "national": 358,
-    "borrius": 376
+    "borrius": 376,
+    "speciesKey": "SPECIES_CHIMECHO"
   },
   "376": {
     "name": "Absol",
     "national": 359,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ABSOL"
   },
   "360": {
     "name": "Wynaut",
     "national": 360,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WYNAUT"
   },
   "346": {
     "name": "Snorunt",
     "national": 361,
-    "borrius": 1
+    "borrius": 1,
+    "speciesKey": "SPECIES_SNORUNT"
   },
   "347": {
     "name": "Glalie",
     "national": 362,
-    "borrius": 2
+    "borrius": 2,
+    "speciesKey": "SPECIES_GLALIE"
   },
   "341": {
     "name": "Spheal",
     "national": 363,
-    "borrius": 14
+    "borrius": 14,
+    "speciesKey": "SPECIES_SPHEAL"
   },
   "342": {
     "name": "Sealeo",
     "national": 364,
-    "borrius": 15
+    "borrius": 15,
+    "speciesKey": "SPECIES_SEALEO"
   },
   "343": {
     "name": "Walrein",
     "national": 365,
-    "borrius": 16
+    "borrius": 16,
+    "speciesKey": "SPECIES_WALREIN"
   },
   "373": {
     "name": "Clamperl",
     "national": 366,
-    "borrius": 477
+    "borrius": 477,
+    "speciesKey": "SPECIES_CLAMPERL"
   },
   "374": {
     "name": "Huntail",
     "national": 367,
-    "borrius": 478
+    "borrius": 478,
+    "speciesKey": "SPECIES_HUNTAIL"
   },
   "375": {
     "name": "Gorebyss",
     "national": 368,
-    "borrius": 479
+    "borrius": 479,
+    "speciesKey": "SPECIES_GOREBYSS"
   },
   "381": {
     "name": "Relicanth",
     "national": 369,
-    "borrius": 480
+    "borrius": 480,
+    "speciesKey": "SPECIES_RELICANTH"
   },
   "325": {
     "name": "Luvdisc",
     "national": 370,
-    "borrius": 292
+    "borrius": 292,
+    "speciesKey": "SPECIES_LUVDISC"
   },
   "395": {
     "name": "Bagon",
     "national": 371,
-    "borrius": 472
+    "borrius": 472,
+    "speciesKey": "SPECIES_BAGON"
   },
   "396": {
     "name": "Shelgon",
     "national": 372,
-    "borrius": 473
+    "borrius": 473,
+    "speciesKey": "SPECIES_SHELGON"
   },
   "397": {
     "name": "Salamence",
     "national": 373,
-    "borrius": 474
+    "borrius": 474,
+    "speciesKey": "SPECIES_SALAMENCE"
   },
   "398": {
     "name": "Beldum",
     "national": 374,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BELDUM"
   },
   "399": {
     "name": "Metang",
     "national": 375,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_METANG"
   },
   "400": {
     "name": "Metagross",
     "national": 376,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_METAGROSS"
   },
   "401": {
     "name": "Regirock",
     "national": 377,
-    "borrius": 486
+    "borrius": 486,
+    "speciesKey": "SPECIES_REGIROCK"
   },
   "402": {
     "name": "Regice",
     "national": 378,
-    "borrius": 487
+    "borrius": 487,
+    "speciesKey": "SPECIES_REGICE"
   },
   "403": {
     "name": "Registeel",
     "national": 379,
-    "borrius": 488
+    "borrius": 488,
+    "speciesKey": "SPECIES_REGISTEEL"
   },
   "407": {
     "name": "Latias",
     "national": 380,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LATIAS"
   },
   "408": {
     "name": "Latios",
     "national": 381,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LATIOS"
   },
   "404": {
     "name": "Kyogre",
     "national": 382,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KYOGRE"
   },
   "405": {
     "name": "Groudon",
     "national": 383,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GROUDON"
   },
   "406": {
     "name": "Rayquaza",
     "national": 384,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RAYQUAZA"
   },
   "409": {
     "name": "Jirachi",
     "national": 385,
-    "borrius": 490
+    "borrius": 490,
+    "speciesKey": "SPECIES_JIRACHI"
   },
   "410": {
     "name": "Deoxys",
     "national": 386,
-    "borrius": 491
+    "borrius": 491,
+    "speciesKey": "SPECIES_DEOXYS"
   },
   "440": {
     "name": "Turtwig",
     "national": 387,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TURTWIG"
   },
   "441": {
     "name": "Grotle",
     "national": 388,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GROTLE"
   },
   "442": {
     "name": "Torterra",
     "national": 389,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TORTERRA"
   },
   "443": {
     "name": "Chimchar",
     "national": 390,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHIMCHAR"
   },
   "444": {
     "name": "Monferno",
     "national": 391,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MONFERNO"
   },
   "445": {
     "name": "Infernape",
     "national": 392,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_INFERNAPE"
   },
   "446": {
     "name": "Piplup",
     "national": 393,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PIPLUP"
   },
   "447": {
     "name": "Prinplup",
     "national": 394,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PRINPLUP"
   },
   "448": {
     "name": "Empoleon",
     "national": 395,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_EMPOLEON"
   },
   "449": {
     "name": "Starly",
     "national": 396,
-    "borrius": 114
+    "borrius": 114,
+    "speciesKey": "SPECIES_STARLY"
   },
   "450": {
     "name": "Staravia",
     "national": 397,
-    "borrius": 115
+    "borrius": 115,
+    "speciesKey": "SPECIES_STARAVIA"
   },
   "451": {
     "name": "Staraptor",
     "national": 398,
-    "borrius": 116
+    "borrius": 116,
+    "speciesKey": "SPECIES_STARAPTOR"
   },
   "452": {
     "name": "Bidoof",
     "national": 399,
-    "borrius": 60
+    "borrius": 60,
+    "speciesKey": "SPECIES_BIDOOF"
   },
   "453": {
     "name": "Bibarel",
     "national": 400,
-    "borrius": 61
+    "borrius": 61,
+    "speciesKey": "SPECIES_BIBAREL"
   },
   "454": {
     "name": "Kricketot",
     "national": 401,
-    "borrius": 202
+    "borrius": 202,
+    "speciesKey": "SPECIES_KRICKETOT"
   },
   "455": {
     "name": "Kricketune",
     "national": 402,
-    "borrius": 203
+    "borrius": 203,
+    "speciesKey": "SPECIES_KRICKETUNE"
   },
   "456": {
     "name": "Shinx",
     "national": 403,
-    "borrius": 195
+    "borrius": 195,
+    "speciesKey": "SPECIES_SHINX"
   },
   "457": {
     "name": "Luxio",
     "national": 404,
-    "borrius": 196
+    "borrius": 196,
+    "speciesKey": "SPECIES_LUXIO"
   },
   "458": {
     "name": "Luxray",
     "national": 405,
-    "borrius": 197
+    "borrius": 197,
+    "speciesKey": "SPECIES_LUXRAY"
   },
   "459": {
     "name": "Budew",
     "national": 406,
-    "borrius": 120
+    "borrius": 120,
+    "speciesKey": "SPECIES_BUDEW"
   },
   "460": {
     "name": "Roserade",
     "national": 407,
-    "borrius": 122
+    "borrius": 122,
+    "speciesKey": "SPECIES_ROSERADE"
   },
   "461": {
     "name": "Cranidos",
     "national": 408,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CRANIDOS"
   },
   "462": {
     "name": "Rampardos",
     "national": 409,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RAMPARDOS"
   },
   "463": {
     "name": "Shieldon",
     "national": 410,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SHIELDON"
   },
   "464": {
     "name": "Bastiodon",
     "national": 411,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BASTIODON"
   },
   "465": {
     "name": "Burmy",
     "national": 412,
-    "borrius": 133
+    "borrius": 133,
+    "speciesKey": "SPECIES_BURMY"
   },
   "466": {
     "name": "Wormadam",
     "national": 413,
-    "borrius": 134
+    "borrius": 134,
+    "speciesKey": "SPECIES_WORMADAM"
   },
   "467": {
     "name": "Mothim",
     "national": 414,
-    "borrius": 135
+    "borrius": 135,
+    "speciesKey": "SPECIES_MOTHIM"
   },
   "468": {
     "name": "Combee",
     "national": 415,
-    "borrius": 90
+    "borrius": 90,
+    "speciesKey": "SPECIES_COMBEE"
   },
   "469": {
     "name": "Vespiquen",
     "national": 416,
-    "borrius": 91
+    "borrius": 91,
+    "speciesKey": "SPECIES_VESPIQUEN"
   },
   "470": {
     "name": "Pachirisu",
     "national": 417,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PACHIRISU"
   },
   "471": {
     "name": "Buizel",
     "national": 418,
-    "borrius": 62
+    "borrius": 62,
+    "speciesKey": "SPECIES_BUIZEL"
   },
   "472": {
     "name": "Floatzel",
     "national": 419,
-    "borrius": 63
+    "borrius": 63,
+    "speciesKey": "SPECIES_FLOATZEL"
   },
   "473": {
     "name": "Cherubi",
     "national": 420,
-    "borrius": 72
+    "borrius": 72,
+    "speciesKey": "SPECIES_CHERUBI"
   },
   "474": {
     "name": "Cherrim",
     "national": 421,
-    "borrius": 73
+    "borrius": 73,
+    "speciesKey": "SPECIES_CHERRIM"
   },
   "475": {
     "name": "Shellos",
     "national": 422,
-    "borrius": 64
+    "borrius": 64,
+    "speciesKey": "SPECIES_SHELLOS"
   },
   "476": {
     "name": "Gastrodon",
     "national": 423,
-    "borrius": 65
+    "borrius": 65,
+    "speciesKey": "SPECIES_GASTRODON"
   },
   "477": {
     "name": "Ambipom",
     "national": 424,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AMBIPOM"
   },
   "478": {
     "name": "Drifloon",
     "national": 425,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRIFLOON"
   },
   "479": {
     "name": "Drifblim",
     "national": 426,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRIFBLIM"
   },
   "480": {
     "name": "Buneary",
     "national": 427,
-    "borrius": 209
+    "borrius": 209,
+    "speciesKey": "SPECIES_BUNEARY"
   },
   "481": {
     "name": "Lopunny",
     "national": 428,
-    "borrius": 210
+    "borrius": 210,
+    "speciesKey": "SPECIES_LOPUNNY"
   },
   "482": {
     "name": "Mismagius",
     "national": 429,
-    "borrius": 324
+    "borrius": 324,
+    "speciesKey": "SPECIES_MISMAGIUS"
   },
   "483": {
     "name": "Honchkrow",
     "national": 430,
-    "borrius": 155
+    "borrius": 155,
+    "speciesKey": "SPECIES_HONCHKROW"
   },
   "484": {
     "name": "Glameow",
     "national": 431,
-    "borrius": 275
+    "borrius": 275,
+    "speciesKey": "SPECIES_GLAMEOW"
   },
   "485": {
     "name": "Purugly",
     "national": 432,
-    "borrius": 276
+    "borrius": 276,
+    "speciesKey": "SPECIES_PURUGLY"
   },
   "486": {
     "name": "Chingling",
     "national": 433,
-    "borrius": 375
+    "borrius": 375,
+    "speciesKey": "SPECIES_CHINGLING"
   },
   "487": {
     "name": "Stunky",
     "national": 434,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_STUNKY"
   },
   "488": {
     "name": "Skuntank",
     "national": 435,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SKUNTANK"
   },
   "489": {
     "name": "Bronzor",
     "national": 436,
-    "borrius": 225
+    "borrius": 225,
+    "speciesKey": "SPECIES_BRONZOR"
   },
   "490": {
     "name": "Bronzong",
     "national": 437,
-    "borrius": 226
+    "borrius": 226,
+    "speciesKey": "SPECIES_BRONZONG"
   },
   "491": {
     "name": "Bonsly",
     "national": 438,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BONSLY"
   },
   "492": {
     "name": "Mime Jr?",
     "national": 439,
-    "borrius": 221
+    "borrius": 221,
+    "speciesKey": "SPECIES_MIME_JR"
   },
   "493": {
     "name": "Happiny",
     "national": 440,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HAPPINY"
   },
   "494": {
     "name": "Chatot",
     "national": 441,
-    "borrius": 456
+    "borrius": 456,
+    "speciesKey": "SPECIES_CHATOT"
   },
   "495": {
     "name": "Spiritomb",
     "national": 442,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SPIRITOMB"
   },
   "496": {
     "name": "Gible",
     "national": 443,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GIBLE"
   },
   "497": {
     "name": "Gabite",
     "national": 444,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GABITE"
   },
   "498": {
     "name": "Garchomp",
     "national": 445,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GARCHOMP"
   },
   "499": {
     "name": "Munchlax",
     "national": 446,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUNCHLAX"
   },
   "500": {
     "name": "Riolu",
     "national": 447,
-    "borrius": 52
+    "borrius": 52,
+    "speciesKey": "SPECIES_RIOLU"
   },
   "501": {
     "name": "Lucario",
     "national": 448,
-    "borrius": 53
+    "borrius": 53,
+    "speciesKey": "SPECIES_LUCARIO"
   },
   "502": {
     "name": "Hippopotas",
     "national": 449,
-    "borrius": 422
+    "borrius": 422,
+    "speciesKey": "SPECIES_HIPPOPOTAS"
   },
   "503": {
     "name": "Hippowdon",
     "national": 450,
-    "borrius": 423
+    "borrius": 423,
+    "speciesKey": "SPECIES_HIPPOWDON"
   },
   "504": {
     "name": "Skorupi",
     "national": 451,
-    "borrius": 246
+    "borrius": 246,
+    "speciesKey": "SPECIES_SKORUPI"
   },
   "505": {
     "name": "Drapion",
     "national": 452,
-    "borrius": 247
+    "borrius": 247,
+    "speciesKey": "SPECIES_DRAPION"
   },
   "506": {
     "name": "Croagunk",
     "national": 453,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CROAGUNK"
   },
   "507": {
     "name": "Toxicroak",
     "national": 454,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOXICROAK"
   },
   "508": {
     "name": "Carnivine",
     "national": 455,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CARNIVINE"
   },
   "509": {
     "name": "Finneon",
     "national": 456,
-    "borrius": 395
+    "borrius": 395,
+    "speciesKey": "SPECIES_FINNEON"
   },
   "510": {
     "name": "Lumineon",
     "national": 457,
-    "borrius": 396
+    "borrius": 396,
+    "speciesKey": "SPECIES_LUMINEON"
   },
   "511": {
     "name": "Mantyke",
     "national": 458,
-    "borrius": 392
+    "borrius": 392,
+    "speciesKey": "SPECIES_MANTYKE"
   },
   "512": {
     "name": "Snover",
     "national": 459,
-    "borrius": 232
+    "borrius": 232,
+    "speciesKey": "SPECIES_SNOVER"
   },
   "513": {
     "name": "Abomasnow",
     "national": 460,
-    "borrius": 233
+    "borrius": 233,
+    "speciesKey": "SPECIES_ABOMASNOW"
   },
   "514": {
     "name": "Weavile",
     "national": 461,
-    "borrius": 230
+    "borrius": 230,
+    "speciesKey": "SPECIES_WEAVILE"
   },
   "515": {
     "name": "Magnezone",
     "national": 462,
-    "borrius": 297
+    "borrius": 297,
+    "speciesKey": "SPECIES_MAGNEZONE"
   },
   "516": {
     "name": "Lickilicky",
     "national": 463,
-    "borrius": 157
+    "borrius": 157,
+    "speciesKey": "SPECIES_LICKILICKY"
   },
   "517": {
     "name": "Rhyperior",
     "national": 464,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RHYPERIOR"
   },
   "518": {
     "name": "Tangrowth",
     "national": 465,
-    "borrius": 450
+    "borrius": 450,
+    "speciesKey": "SPECIES_TANGROWTH"
   },
   "519": {
     "name": "Electivire",
     "national": 466,
-    "borrius": 305
+    "borrius": 305,
+    "speciesKey": "SPECIES_ELECTIVIRE"
   },
   "520": {
     "name": "Magmortar",
     "national": 467,
-    "borrius": 148
+    "borrius": 148,
+    "speciesKey": "SPECIES_MAGMORTAR"
   },
   "521": {
     "name": "Togekiss",
     "national": 468,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOGEKISS"
   },
   "522": {
     "name": "Yanmega",
     "national": 469,
-    "borrius": 169
+    "borrius": 169,
+    "speciesKey": "SPECIES_YANMEGA"
   },
   "523": {
     "name": "Leafeon",
     "national": 470,
-    "borrius": 361
+    "borrius": 361,
+    "speciesKey": "SPECIES_LEAFEON"
   },
   "524": {
     "name": "Glaceon",
     "national": 471,
-    "borrius": 362
+    "borrius": 362,
+    "speciesKey": "SPECIES_GLACEON"
   },
   "525": {
     "name": "Gliscor",
     "national": 472,
-    "borrius": 187
+    "borrius": 187,
+    "speciesKey": "SPECIES_GLISCOR"
   },
   "526": {
     "name": "Mamoswine",
     "national": 473,
-    "borrius": 24
+    "borrius": 24,
+    "speciesKey": "SPECIES_MAMOSWINE"
   },
   "527": {
     "name": "Porygon-Z",
     "national": 474,
-    "borrius": 369
+    "borrius": 369,
+    "speciesKey": "SPECIES_PORYGON_Z"
   },
   "528": {
     "name": "Gallade",
     "national": 475,
-    "borrius": 132
+    "borrius": 132,
+    "speciesKey": "SPECIES_GALLADE"
   },
   "529": {
     "name": "Probopass",
     "national": 476,
-    "borrius": 180
+    "borrius": 180,
+    "speciesKey": "SPECIES_PROBOPASS"
   },
   "530": {
     "name": "Dusknoir",
     "national": 477,
-    "borrius": 111
+    "borrius": 111,
+    "speciesKey": "SPECIES_DUSKNOIR"
   },
   "531": {
     "name": "Froslass",
     "national": 478,
-    "borrius": 3
+    "borrius": 3,
+    "speciesKey": "SPECIES_FROSLASS"
   },
   "532": {
     "name": "Rotom",
     "national": 479,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ROTOM"
   },
   "533": {
     "name": "Uxie",
     "national": 480,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_UXIE"
   },
   "534": {
     "name": "Mesprit",
     "national": 481,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MESPRIT"
   },
   "535": {
     "name": "Azelf",
     "national": 482,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AZELF"
   },
   "536": {
     "name": "Dialga",
     "national": 483,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DIALGA"
   },
   "537": {
     "name": "Palkia",
     "national": 484,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PALKIA"
   },
   "538": {
     "name": "Heatran",
     "national": 485,
-    "borrius": 492
+    "borrius": 492,
+    "speciesKey": "SPECIES_HEATRAN"
   },
   "539": {
     "name": "Regigigas",
     "national": 486,
-    "borrius": 489
+    "borrius": 489,
+    "speciesKey": "SPECIES_REGIGIGAS"
   },
   "540": {
     "name": "Giratina",
     "national": 487,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GIRATINA"
   },
   "541": {
     "name": "Cresselia",
     "national": 488,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CRESSELIA"
   },
   "542": {
     "name": "Phione",
     "national": 489,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PHIONE"
   },
   "543": {
     "name": "Manaphy",
     "national": 490,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MANAPHY"
   },
   "544": {
     "name": "Darkrai",
     "national": 491,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DARKRAI"
   },
   "545": {
     "name": "Shaymin",
     "national": 492,
-    "borrius": 493
+    "borrius": 493,
+    "speciesKey": "SPECIES_SHAYMIN"
   },
   "546": {
     "name": "Arceus",
     "national": 493,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARCEUS"
   },
   "547": {
     "name": "Victini",
     "national": 494,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VICTINI"
   },
   "548": {
     "name": "Snivy",
     "national": 495,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SNIVY"
   },
   "549": {
     "name": "Servine",
     "national": 496,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SERVINE"
   },
   "550": {
     "name": "Serperior",
     "national": 497,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SERPERIOR"
   },
   "551": {
     "name": "Tepig",
     "national": 498,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TEPIG"
   },
   "552": {
     "name": "Pignite",
     "national": 499,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PIGNITE"
   },
   "553": {
     "name": "Emboar",
     "national": 500,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_EMBOAR"
   },
   "554": {
     "name": "Oshawott",
     "national": 501,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_OSHAWOTT"
   },
   "555": {
     "name": "Dewott",
     "national": 502,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DEWOTT"
   },
   "556": {
     "name": "Samurott",
     "national": 503,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SAMUROTT"
   },
   "557": {
     "name": "Patrat",
     "national": 504,
-    "borrius": 37
+    "borrius": 37,
+    "speciesKey": "SPECIES_PATRAT"
   },
   "558": {
     "name": "Watchog",
     "national": 505,
-    "borrius": 38
+    "borrius": 38,
+    "speciesKey": "SPECIES_WATCHOG"
   },
   "559": {
     "name": "Lillipup",
     "national": 506,
-    "borrius": 117
+    "borrius": 117,
+    "speciesKey": "SPECIES_LILLIPUP"
   },
   "560": {
     "name": "Herdier",
     "national": 507,
-    "borrius": 118
+    "borrius": 118,
+    "speciesKey": "SPECIES_HERDIER"
   },
   "561": {
     "name": "Stoutland",
     "national": 508,
-    "borrius": 119
+    "borrius": 119,
+    "speciesKey": "SPECIES_STOUTLAND"
   },
   "562": {
     "name": "Purrloin",
     "national": 509,
-    "borrius": 172
+    "borrius": 172,
+    "speciesKey": "SPECIES_PURRLOIN"
   },
   "563": {
     "name": "Liepard",
     "national": 510,
-    "borrius": 173
+    "borrius": 173,
+    "speciesKey": "SPECIES_LIEPARD"
   },
   "564": {
     "name": "Pansage",
     "national": 511,
-    "borrius": 84
+    "borrius": 84,
+    "speciesKey": "SPECIES_PANSAGE"
   },
   "565": {
     "name": "Simisage",
     "national": 512,
-    "borrius": 85
+    "borrius": 85,
+    "speciesKey": "SPECIES_SIMISAGE"
   },
   "566": {
     "name": "Pansear",
     "national": 513,
-    "borrius": 86
+    "borrius": 86,
+    "speciesKey": "SPECIES_PANSEAR"
   },
   "567": {
     "name": "Simisear",
     "national": 514,
-    "borrius": 87
+    "borrius": 87,
+    "speciesKey": "SPECIES_SIMISEAR"
   },
   "568": {
     "name": "Panpour",
     "national": 515,
-    "borrius": 88
+    "borrius": 88,
+    "speciesKey": "SPECIES_PANPOUR"
   },
   "569": {
     "name": "Simipour",
     "national": 516,
-    "borrius": 89
+    "borrius": 89,
+    "speciesKey": "SPECIES_SIMIPOUR"
   },
   "570": {
     "name": "Munna",
     "national": 517,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUNNA"
   },
   "571": {
     "name": "Musharna",
     "national": 518,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUSHARNA"
   },
   "572": {
     "name": "Pidove",
     "national": 519,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PIDOVE"
   },
   "573": {
     "name": "Tranquill",
     "national": 520,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TRANQUILL"
   },
   "574": {
     "name": "Unfezant",
     "national": 521,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_UNFEZANT"
   },
   "575": {
     "name": "Blitzle",
     "national": 522,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BLITZLE"
   },
   "576": {
     "name": "Zebstrika",
     "national": 523,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZEBSTRIKA"
   },
   "577": {
     "name": "Roggenrola",
     "national": 524,
-    "borrius": 19
+    "borrius": 19,
+    "speciesKey": "SPECIES_ROGGENROLA"
   },
   "578": {
     "name": "Boldore",
     "national": 525,
-    "borrius": 20
+    "borrius": 20,
+    "speciesKey": "SPECIES_BOLDORE"
   },
   "579": {
     "name": "Gigalith",
     "national": 526,
-    "borrius": 21
+    "borrius": 21,
+    "speciesKey": "SPECIES_GIGALITH"
   },
   "580": {
     "name": "Woobat",
     "national": 527,
-    "borrius": 136
+    "borrius": 136,
+    "speciesKey": "SPECIES_WOOBAT"
   },
   "581": {
     "name": "Swoobat",
     "national": 528,
-    "borrius": 137
+    "borrius": 137,
+    "speciesKey": "SPECIES_SWOOBAT"
   },
   "582": {
     "name": "Drilbur",
     "national": 529,
-    "borrius": 27
+    "borrius": 27,
+    "speciesKey": "SPECIES_DRILBUR"
   },
   "583": {
     "name": "Excadrill",
     "national": 530,
-    "borrius": 28
+    "borrius": 28,
+    "speciesKey": "SPECIES_EXCADRILL"
   },
   "584": {
     "name": "Audino",
     "national": 531,
-    "borrius": 248
+    "borrius": 248,
+    "speciesKey": "SPECIES_AUDINO"
   },
   "585": {
     "name": "Timburr",
     "national": 532,
-    "borrius": 309
+    "borrius": 309,
+    "speciesKey": "SPECIES_TIMBURR"
   },
   "586": {
     "name": "Gurdurr",
     "national": 533,
-    "borrius": 310
+    "borrius": 310,
+    "speciesKey": "SPECIES_GURDURR"
   },
   "587": {
     "name": "Conkeldurr",
     "national": 534,
-    "borrius": 311
+    "borrius": 311,
+    "speciesKey": "SPECIES_CONKELDURR"
   },
   "588": {
     "name": "Tympole",
     "national": 535,
-    "borrius": 254
+    "borrius": 254,
+    "speciesKey": "SPECIES_TYMPOLE"
   },
   "589": {
     "name": "Palpitoad",
     "national": 536,
-    "borrius": 255
+    "borrius": 255,
+    "speciesKey": "SPECIES_PALPITOAD"
   },
   "590": {
     "name": "Seismitoad",
     "national": 537,
-    "borrius": 256
+    "borrius": 256,
+    "speciesKey": "SPECIES_SEISMITOAD"
   },
   "591": {
     "name": "Throh",
     "national": 538,
-    "borrius": 457
+    "borrius": 457,
+    "speciesKey": "SPECIES_THROH"
   },
   "592": {
     "name": "Sawk",
     "national": 539,
-    "borrius": 458
+    "borrius": 458,
+    "speciesKey": "SPECIES_SAWK"
   },
   "593": {
     "name": "Sewaddle",
     "national": 540,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SEWADDLE"
   },
   "594": {
     "name": "Swadloon",
     "national": 541,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SWADLOON"
   },
   "595": {
     "name": "Leavanny",
     "national": 542,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LEAVANNY"
   },
   "596": {
     "name": "Venipede",
     "national": 543,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VENIPEDE"
   },
   "597": {
     "name": "Whirlipede",
     "national": 544,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WHIRLIPEDE"
   },
   "598": {
     "name": "Scolipede",
     "national": 545,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SCOLIPEDE"
   },
   "599": {
     "name": "Cottonee",
     "national": 546,
-    "borrius": 436
+    "borrius": 436,
+    "speciesKey": "SPECIES_COTTONEE"
   },
   "600": {
     "name": "Whimsicott",
     "national": 547,
-    "borrius": 437
+    "borrius": 437,
+    "speciesKey": "SPECIES_WHIMSICOTT"
   },
   "601": {
     "name": "Petilil",
     "national": 548,
-    "borrius": 438
+    "borrius": 438,
+    "speciesKey": "SPECIES_PETILIL"
   },
   "602": {
     "name": "Lilligant",
     "national": 549,
-    "borrius": 439
+    "borrius": 439,
+    "speciesKey": "SPECIES_LILLIGANT"
   },
   "603": {
     "name": "Basculin",
     "national": 550,
-    "borrius": 391
+    "borrius": 391,
+    "speciesKey": "SPECIES_BASCULIN_RED"
   },
   "604": {
     "name": "Sandile",
     "national": 551,
-    "borrius": 415
+    "borrius": 415,
+    "speciesKey": "SPECIES_SANDILE"
   },
   "605": {
     "name": "Krokorok",
     "national": 552,
-    "borrius": 416
+    "borrius": 416,
+    "speciesKey": "SPECIES_KROKOROK"
   },
   "606": {
     "name": "Krookodile",
     "national": 553,
-    "borrius": 417
+    "borrius": 417,
+    "speciesKey": "SPECIES_KROOKODILE"
   },
   "607": {
     "name": "Darumaka",
     "national": 554,
-    "borrius": 420
+    "borrius": 420,
+    "speciesKey": "SPECIES_DARUMAKA"
   },
   "608": {
     "name": "Darmanitan",
     "national": 555,
-    "borrius": 421
+    "borrius": 421,
+    "speciesKey": "SPECIES_DARMANITAN"
   },
   "609": {
     "name": "Maractus",
     "national": 556,
-    "borrius": 427
+    "borrius": 427,
+    "speciesKey": "SPECIES_MARACTUS"
   },
   "610": {
     "name": "Dwebble",
     "national": 557,
-    "borrius": 413
+    "borrius": 413,
+    "speciesKey": "SPECIES_DWEBBLE"
   },
   "611": {
     "name": "Crustle",
     "national": 558,
-    "borrius": 414
+    "borrius": 414,
+    "speciesKey": "SPECIES_CRUSTLE"
   },
   "612": {
     "name": "Scraggy",
     "national": 559,
-    "borrius": 50
+    "borrius": 50,
+    "speciesKey": "SPECIES_SCRAGGY"
   },
   "613": {
     "name": "Scrafty",
     "national": 560,
-    "borrius": 51
+    "borrius": 51,
+    "speciesKey": "SPECIES_SCRAFTY"
   },
   "614": {
     "name": "Sigilyph",
     "national": 561,
-    "borrius": 387
+    "borrius": 387,
+    "speciesKey": "SPECIES_SIGILYPH"
   },
   "615": {
     "name": "Yamask",
     "national": 562,
-    "borrius": 382
+    "borrius": 382,
+    "speciesKey": "SPECIES_YAMASK"
   },
   "616": {
     "name": "Cofagrigus",
     "national": 563,
-    "borrius": 383
+    "borrius": 383,
+    "speciesKey": "SPECIES_COFAGRIGUS"
   },
   "617": {
     "name": "Tirtouga",
     "national": 564,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TIRTOUGA"
   },
   "618": {
     "name": "Carracosta",
     "national": 565,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CARRACOSTA"
   },
   "619": {
     "name": "Archen",
     "national": 566,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARCHEN"
   },
   "620": {
     "name": "Archeops",
     "national": 567,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARCHEOPS"
   },
   "621": {
     "name": "Trubbish",
     "national": 568,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TRUBBISH"
   },
   "622": {
     "name": "Garbodor",
     "national": 569,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GARBODOR"
   },
   "623": {
     "name": "Zorua",
     "national": 570,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZORUA"
   },
   "624": {
     "name": "Zoroark",
     "national": 571,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZOROARK"
   },
   "625": {
     "name": "Minccino",
     "national": 572,
-    "borrius": 41
+    "borrius": 41,
+    "speciesKey": "SPECIES_MINCCINO"
   },
   "626": {
     "name": "Cinccino",
     "national": 573,
-    "borrius": 42
+    "borrius": 42,
+    "speciesKey": "SPECIES_CINCCINO"
   },
   "627": {
     "name": "Gothita",
     "national": 574,
-    "borrius": 343
+    "borrius": 343,
+    "speciesKey": "SPECIES_GOTHITA"
   },
   "628": {
     "name": "Gothorita",
     "national": 575,
-    "borrius": 344
+    "borrius": 344,
+    "speciesKey": "SPECIES_GOTHORITA"
   },
   "629": {
     "name": "Gothitelle",
     "national": 576,
-    "borrius": 345
+    "borrius": 345,
+    "speciesKey": "SPECIES_GOTHITELLE"
   },
   "630": {
     "name": "Solosis",
     "national": 577,
-    "borrius": 346
+    "borrius": 346,
+    "speciesKey": "SPECIES_SOLOSIS"
   },
   "631": {
     "name": "Duosion",
     "national": 578,
-    "borrius": 347
+    "borrius": 347,
+    "speciesKey": "SPECIES_DUOSION"
   },
   "632": {
     "name": "Reuniclus",
     "national": 579,
-    "borrius": 348
+    "borrius": 348,
+    "speciesKey": "SPECIES_REUNICLUS"
   },
   "633": {
     "name": "Ducklett",
     "national": 580,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DUCKLETT"
   },
   "634": {
     "name": "Swanna",
     "national": 581,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SWANNA"
   },
   "635": {
     "name": "Vanillite",
     "national": 582,
-    "borrius": 4
+    "borrius": 4,
+    "speciesKey": "SPECIES_VANILLITE"
   },
   "636": {
     "name": "Vanillish",
     "national": 583,
-    "borrius": 5
+    "borrius": 5,
+    "speciesKey": "SPECIES_VANILLISH"
   },
   "637": {
     "name": "Vanilluxe",
     "national": 584,
-    "borrius": 6
+    "borrius": 6,
+    "speciesKey": "SPECIES_VANILLUXE"
   },
   "638": {
     "name": "Deerling",
     "national": 585,
-    "borrius": 198
+    "borrius": 198,
+    "speciesKey": "SPECIES_DEERLING"
   },
   "639": {
     "name": "Sawsbuck",
     "national": 586,
-    "borrius": 199
+    "borrius": 199,
+    "speciesKey": "SPECIES_SAWSBUCK"
   },
   "640": {
     "name": "Emolga",
     "national": 587,
-    "borrius": 370
+    "borrius": 370,
+    "speciesKey": "SPECIES_EMOLGA"
   },
   "641": {
     "name": "Karrablast",
     "national": 588,
-    "borrius": 249
+    "borrius": 249,
+    "speciesKey": "SPECIES_KARRABLAST"
   },
   "642": {
     "name": "Escavalier",
     "national": 589,
-    "borrius": 250
+    "borrius": 250,
+    "speciesKey": "SPECIES_ESCAVALIER"
   },
   "643": {
     "name": "Foongus",
     "national": 590,
-    "borrius": 442
+    "borrius": 442,
+    "speciesKey": "SPECIES_FOONGUS"
   },
   "644": {
     "name": "Amoonguss",
     "national": 591,
-    "borrius": 443
+    "borrius": 443,
+    "speciesKey": "SPECIES_AMOONGUSS"
   },
   "645": {
     "name": "Frillish",
     "national": 592,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FRILLISH"
   },
   "646": {
     "name": "Jellicent",
     "national": 593,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_JELLICENT"
   },
   "647": {
     "name": "Alomomola",
     "national": 594,
-    "borrius": 398
+    "borrius": 398,
+    "speciesKey": "SPECIES_ALOMOMOLA"
   },
   "648": {
     "name": "Joltik",
     "national": 595,
-    "borrius": 312
+    "borrius": 312,
+    "speciesKey": "SPECIES_JOLTIK"
   },
   "649": {
     "name": "Galvantula",
     "national": 596,
-    "borrius": 313
+    "borrius": 313,
+    "speciesKey": "SPECIES_GALVANTULA"
   },
   "650": {
     "name": "Ferroseed",
     "national": 597,
-    "borrius": 314
+    "borrius": 314,
+    "speciesKey": "SPECIES_FERROSEED"
   },
   "651": {
     "name": "Ferrothorn",
     "national": 598,
-    "borrius": 315
+    "borrius": 315,
+    "speciesKey": "SPECIES_FERROTHORN"
   },
   "652": {
     "name": "Klink",
     "national": 599,
-    "borrius": 300
+    "borrius": 300,
+    "speciesKey": "SPECIES_KLINK"
   },
   "653": {
     "name": "Klang",
     "national": 600,
-    "borrius": 301
+    "borrius": 301,
+    "speciesKey": "SPECIES_KLANG"
   },
   "654": {
     "name": "Klinklang",
     "national": 601,
-    "borrius": 302
+    "borrius": 302,
+    "speciesKey": "SPECIES_KLINKLANG"
   },
   "655": {
     "name": "Tynamo",
     "national": 602,
-    "borrius": 306
+    "borrius": 306,
+    "speciesKey": "SPECIES_TYNAMO"
   },
   "656": {
     "name": "Eelektrik",
     "national": 603,
-    "borrius": 307
+    "borrius": 307,
+    "speciesKey": "SPECIES_EELEKTRIK"
   },
   "657": {
     "name": "Eelektross",
     "national": 604,
-    "borrius": 308
+    "borrius": 308,
+    "speciesKey": "SPECIES_EELEKTROSS"
   },
   "658": {
     "name": "Elgyem",
     "national": 605,
-    "borrius": 174
+    "borrius": 174,
+    "speciesKey": "SPECIES_ELGYEM"
   },
   "659": {
     "name": "Beheeyem",
     "national": 606,
-    "borrius": 175
+    "borrius": 175,
+    "speciesKey": "SPECIES_BEHEEYEM"
   },
   "660": {
     "name": "Litwick",
     "national": 607,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LITWICK"
   },
   "661": {
     "name": "Lampent",
     "national": 608,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LAMPENT"
   },
   "662": {
     "name": "Chandelure",
     "national": 609,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHANDELURE"
   },
   "663": {
     "name": "Axew",
     "national": 610,
-    "borrius": 364
+    "borrius": 364,
+    "speciesKey": "SPECIES_AXEW"
   },
   "664": {
     "name": "Fraxure",
     "national": 611,
-    "borrius": 365
+    "borrius": 365,
+    "speciesKey": "SPECIES_FRAXURE"
   },
   "665": {
     "name": "Haxorus",
     "national": 612,
-    "borrius": 366
+    "borrius": 366,
+    "speciesKey": "SPECIES_HAXORUS"
   },
   "666": {
     "name": "Cubchoo",
     "national": 613,
-    "borrius": 234
+    "borrius": 234,
+    "speciesKey": "SPECIES_CUBCHOO"
   },
   "667": {
     "name": "Beartic",
     "national": 614,
-    "borrius": 235
+    "borrius": 235,
+    "speciesKey": "SPECIES_BEARTIC"
   },
   "668": {
     "name": "Cryogonal",
     "national": 615,
-    "borrius": 231
+    "borrius": 231,
+    "speciesKey": "SPECIES_CRYOGONAL"
   },
   "669": {
     "name": "Shelmet",
     "national": 616,
-    "borrius": 262
+    "borrius": 262,
+    "speciesKey": "SPECIES_SHELMET"
   },
   "670": {
     "name": "Accelgor",
     "national": 617,
-    "borrius": 263
+    "borrius": 263,
+    "speciesKey": "SPECIES_ACCELGOR"
   },
   "671": {
     "name": "Stunfisk",
     "national": 618,
-    "borrius": 397
+    "borrius": 397,
+    "speciesKey": "SPECIES_STUNFISK"
   },
   "672": {
     "name": "Mienfoo",
     "national": 619,
-    "borrius": 340
+    "borrius": 340,
+    "speciesKey": "SPECIES_MIENFOO"
   },
   "673": {
     "name": "Mienshao",
     "national": 620,
-    "borrius": 341
+    "borrius": 341,
+    "speciesKey": "SPECIES_MIENSHAO"
   },
   "674": {
     "name": "Druddigon",
     "national": 621,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRUDDIGON"
   },
   "675": {
     "name": "Golett",
     "national": 622,
-    "borrius": 373
+    "borrius": 373,
+    "speciesKey": "SPECIES_GOLETT"
   },
   "676": {
     "name": "Golurk",
     "national": 623,
-    "borrius": 374
+    "borrius": 374,
+    "speciesKey": "SPECIES_GOLURK"
   },
   "677": {
     "name": "Pawniard",
     "national": 624,
-    "borrius": 454
+    "borrius": 454,
+    "speciesKey": "SPECIES_PAWNIARD"
   },
   "678": {
     "name": "Bisharp",
     "national": 625,
-    "borrius": 455
+    "borrius": 455,
+    "speciesKey": "SPECIES_BISHARP"
   },
   "679": {
     "name": "Bouffalant",
     "national": 626,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BOUFFALANT"
   },
   "680": {
     "name": "Rufflet",
     "national": 627,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RUFFLET"
   },
   "681": {
     "name": "Braviary",
     "national": 628,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BRAVIARY"
   },
   "682": {
     "name": "Vullaby",
     "national": 629,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VULLABY"
   },
   "683": {
     "name": "Mandibuzz",
     "national": 630,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MANDIBUZZ"
   },
   "684": {
     "name": "Heatmor",
     "national": 631,
-    "borrius": 149
+    "borrius": 149,
+    "speciesKey": "SPECIES_HEATMOR"
   },
   "685": {
     "name": "Durant",
     "national": 632,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DURANT"
   },
   "686": {
     "name": "Deino",
     "national": 633,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DEINO"
   },
   "687": {
     "name": "Zweilous",
     "national": 634,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZWEILOUS"
   },
   "688": {
     "name": "Hydreigon",
     "national": 635,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HYDREIGON"
   },
   "689": {
     "name": "Larvesta",
     "national": 636,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LARVESTA"
   },
   "690": {
     "name": "Volcarona",
     "national": 637,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VOLCARONA"
   },
   "691": {
     "name": "Cobalion",
     "national": 638,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COBALION"
   },
   "692": {
     "name": "Terrakion",
     "national": 639,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TERRAKION"
   },
   "693": {
     "name": "Virizion",
     "national": 640,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VIRIZION"
   },
   "694": {
     "name": "Tornadus",
     "national": 641,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TORNADUS"
   },
   "695": {
     "name": "Thundurus",
     "national": 642,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_THUNDURUS"
   },
   "696": {
     "name": "Reshiram",
     "national": 643,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RESHIRAM"
   },
   "697": {
     "name": "Zekrom",
     "national": 644,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZEKROM"
   },
   "698": {
     "name": "Landorus",
     "national": 645,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LANDORUS"
   },
   "699": {
     "name": "Kyurem",
     "national": 646,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KYUREM"
   },
   "700": {
     "name": "Keldeo",
     "national": 647,
-    "borrius": 494
+    "borrius": 494,
+    "speciesKey": "SPECIES_KELDEO"
   },
   "701": {
     "name": "Meloetta",
     "national": 648,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MELOETTA"
   },
   "702": {
     "name": "Genesect",
     "national": 649,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GENESECT"
   },
   "758": {
     "name": "Chespin",
     "national": 650,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHESPIN"
   },
   "759": {
     "name": "Quilladin",
     "national": 651,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_QUILLADIN"
   },
   "760": {
     "name": "Chesnaught",
     "national": 652,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHESNAUGHT"
   },
   "761": {
     "name": "Fennekin",
     "national": 653,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FENNEKIN"
   },
   "762": {
     "name": "Braixen",
     "national": 654,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BRAIXEN"
   },
   "763": {
     "name": "Delphox",
     "national": 655,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DELPHOX"
   },
   "764": {
     "name": "Froakie",
     "national": 656,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FROAKIE"
   },
   "765": {
     "name": "Frogadier",
     "national": 657,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FROGADIER"
   },
   "766": {
     "name": "Greninja",
     "national": 658,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GRENINJA"
   },
   "767": {
     "name": "Bunnelby",
     "national": 659,
-    "borrius": 189
+    "borrius": 189,
+    "speciesKey": "SPECIES_BUNNELBY"
   },
   "768": {
     "name": "Diggersby",
     "national": 660,
-    "borrius": 190
+    "borrius": 190,
+    "speciesKey": "SPECIES_DIGGERSBY"
   },
   "769": {
     "name": "Fletchling",
     "national": 661,
-    "borrius": 331
+    "borrius": 331,
+    "speciesKey": "SPECIES_FLETCHLING"
   },
   "771": {
     "name": "Talonflame",
     "national": 663,
-    "borrius": 333
+    "borrius": 333,
+    "speciesKey": "SPECIES_TALONFLAME"
   },
   "772": {
     "name": "Scatterbug",
     "national": 664,
-    "borrius": 433
+    "borrius": 433,
+    "speciesKey": "SPECIES_SCATTERBUG"
   },
   "773": {
     "name": "Spewpa",
     "national": 665,
-    "borrius": 434
+    "borrius": 434,
+    "speciesKey": "SPECIES_SPEWPA"
   },
   "774": {
     "name": "Vivillon",
     "national": 666,
-    "borrius": 435
+    "borrius": 435,
+    "speciesKey": "SPECIES_VIVILLON"
   },
   "775": {
     "name": "Litleo",
     "national": 667,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LITLEO"
   },
   "776": {
     "name": "Pyroar",
     "national": 668,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PYROAR"
   },
   "778": {
     "name": "Floette",
     "national": 670,
-    "borrius": 79
+    "borrius": 79,
+    "speciesKey": "SPECIES_FLOETTE"
   },
   "779": {
     "name": "Florges",
     "national": 671,
-    "borrius": 80
+    "borrius": 80,
+    "speciesKey": "SPECIES_FLORGES"
   },
   "780": {
     "name": "Skiddo",
     "national": 672,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SKIDDO"
   },
   "781": {
     "name": "Gogoat",
     "national": 673,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GOGOAT"
   },
   "782": {
     "name": "Pancham",
     "national": 674,
-    "borrius": 452
+    "borrius": 452,
+    "speciesKey": "SPECIES_PANCHAM"
   },
   "783": {
     "name": "Pangoro",
     "national": 675,
-    "borrius": 453
+    "borrius": 453,
+    "speciesKey": "SPECIES_PANGORO"
   },
   "784": {
     "name": "Furfrou",
     "national": 676,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FURFROU"
   },
   "785": {
     "name": "Espurr",
     "national": 677,
-    "borrius": 217
+    "borrius": 217,
+    "speciesKey": "SPECIES_ESPURR"
   },
   "786": {
     "name": "Meowstic",
     "national": 678,
-    "borrius": 218
+    "borrius": 218,
+    "speciesKey": "SPECIES_MEOWSTIC"
   },
   "787": {
     "name": "Honedge",
     "national": 679,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HONEDGE"
   },
   "788": {
     "name": "Doublade",
     "national": 680,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DOUBLADE"
   },
   "789": {
     "name": "Aegislash",
     "national": 681,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AEGISLASH"
   },
   "790": {
     "name": "Spritzee",
     "national": 682,
-    "borrius": 351
+    "borrius": 351,
+    "speciesKey": "SPECIES_SPRITZEE"
   },
   "791": {
     "name": "Aromatisse",
     "national": 683,
-    "borrius": 352
+    "borrius": 352,
+    "speciesKey": "SPECIES_AROMATISSE"
   },
   "792": {
     "name": "Swirlix",
     "national": 684,
-    "borrius": 349
+    "borrius": 349,
+    "speciesKey": "SPECIES_SWIRLIX"
   },
   "793": {
     "name": "Slurpuff",
     "national": 685,
-    "borrius": 350
+    "borrius": 350,
+    "speciesKey": "SPECIES_SLURPUFF"
   },
   "794": {
     "name": "Inkay",
     "national": 686,
-    "borrius": 54
+    "borrius": 54,
+    "speciesKey": "SPECIES_INKAY"
   },
   "795": {
     "name": "Malamar",
     "national": 687,
-    "borrius": 55
+    "borrius": 55,
+    "speciesKey": "SPECIES_MALAMAR"
   },
   "796": {
     "name": "Binacle",
     "national": 688,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BINACLE"
   },
   "797": {
     "name": "Barbaracle",
     "national": 689,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BARBARACLE"
   },
   "798": {
     "name": "Skrelp",
     "national": 690,
-    "borrius": 399
+    "borrius": 399,
+    "speciesKey": "SPECIES_SKRELP"
   },
   "799": {
     "name": "Dragalge",
     "national": 691,
-    "borrius": 400
+    "borrius": 400,
+    "speciesKey": "SPECIES_DRAGALGE"
   },
   "800": {
     "name": "Clauncher",
     "national": 692,
-    "borrius": 401
+    "borrius": 401,
+    "speciesKey": "SPECIES_CLAUNCHER"
   },
   "801": {
     "name": "Clawitzer",
     "national": 693,
-    "borrius": 402
+    "borrius": 402,
+    "speciesKey": "SPECIES_CLAWITZER"
   },
   "802": {
     "name": "Helioptile",
     "national": 694,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HELIOPTILE"
   },
   "803": {
     "name": "Heliolisk",
     "national": 695,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HELIOLISK"
   },
   "804": {
     "name": "Tyrunt",
     "national": 696,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYRUNT"
   },
   "805": {
     "name": "Tyrantrum",
     "national": 697,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYRANTRUM"
   },
   "806": {
     "name": "Amaura",
     "national": 698,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AMAURA"
   },
   "807": {
     "name": "Aurorus",
     "national": 699,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_AURORUS"
   },
   "808": {
     "name": "Sylveon",
     "national": 700,
-    "borrius": 363
+    "borrius": 363,
+    "speciesKey": "SPECIES_SYLVEON"
   },
   "809": {
     "name": "Hawlucha",
     "national": 701,
-    "borrius": 371
+    "borrius": 371,
+    "speciesKey": "SPECIES_HAWLUCHA"
   },
   "810": {
     "name": "Dedenne",
     "national": 702,
-    "borrius": 342
+    "borrius": 342,
+    "speciesKey": "SPECIES_DEDENNE"
   },
   "811": {
     "name": "Carbink",
     "national": 703,
-    "borrius": 183
+    "borrius": 183,
+    "speciesKey": "SPECIES_CARBINK"
   },
   "812": {
     "name": "Goomy",
     "national": 704,
-    "borrius": 259
+    "borrius": 259,
+    "speciesKey": "SPECIES_GOOMY"
   },
   "813": {
     "name": "Sliggoo",
     "national": 705,
-    "borrius": 260
+    "borrius": 260,
+    "speciesKey": "SPECIES_SLIGGOO"
   },
   "814": {
     "name": "Goodra",
     "national": 706,
-    "borrius": 261
+    "borrius": 261,
+    "speciesKey": "SPECIES_GOODRA"
   },
   "815": {
     "name": "Klefki",
     "national": 707,
-    "borrius": 372
+    "borrius": 372,
+    "speciesKey": "SPECIES_KLEFKI"
   },
   "816": {
     "name": "Phantump",
     "national": 708,
-    "borrius": 112
+    "borrius": 112,
+    "speciesKey": "SPECIES_PHANTUMP"
   },
   "817": {
     "name": "Trevenant",
     "national": 709,
-    "borrius": 113
+    "borrius": 113,
+    "speciesKey": "SPECIES_TREVENANT"
   },
   "818": {
     "name": "Pumpkaboo",
     "national": 710,
-    "borrius": 102
+    "borrius": 102,
+    "speciesKey": "SPECIES_PUMPKABOO"
   },
   "819": {
     "name": "Gourgeist",
     "national": 711,
-    "borrius": 103
+    "borrius": 103,
+    "speciesKey": "SPECIES_GOURGEIST"
   },
   "820": {
     "name": "Bergmite",
     "national": 712,
-    "borrius": 25
+    "borrius": 25,
+    "speciesKey": "SPECIES_BERGMITE"
   },
   "821": {
     "name": "Avalugg",
     "national": 713,
-    "borrius": 26
+    "borrius": 26,
+    "speciesKey": "SPECIES_AVALUGG"
   },
   "822": {
     "name": "Noibat",
     "national": 714,
-    "borrius": 181
+    "borrius": 181,
+    "speciesKey": "SPECIES_NOIBAT"
   },
   "823": {
     "name": "Noivern",
     "national": 715,
-    "borrius": 182
+    "borrius": 182,
+    "speciesKey": "SPECIES_NOIVERN"
   },
   "824": {
     "name": "Xerneas",
     "national": 716,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_XERNEAS"
   },
   "825": {
     "name": "Yveltal",
     "national": 717,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_YVELTAL"
   },
   "826": {
     "name": "Zygarde",
     "national": 718,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZYGARDE"
   },
   "827": {
     "name": "Diancie",
     "national": 719,
-    "borrius": 495
+    "borrius": 495,
+    "speciesKey": "SPECIES_DIANCIE"
   },
   "828": {
     "name": "Hoopa",
     "national": 720,
-    "borrius": 498
+    "borrius": 498,
+    "speciesKey": "SPECIES_HOOPA"
   },
   "830": {
     "name": "Volcanion",
     "national": 721,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_VOLCANION"
   },
   "939": {
     "name": "Rowlet",
     "national": 722,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ROWLET"
   },
   "940": {
     "name": "Dartrix",
     "national": 723,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DARTRIX"
   },
   "941": {
     "name": "Decidueye",
     "national": 724,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DECIDUEYE"
   },
   "942": {
     "name": "Litten",
     "national": 725,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LITTEN"
   },
   "943": {
     "name": "Torracat",
     "national": 726,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TORRACAT"
   },
   "944": {
     "name": "Incineroar",
     "national": 727,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_INCINEROAR"
   },
   "945": {
     "name": "Popplio",
     "national": 728,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_POPPLIO"
   },
   "946": {
     "name": "Brionne",
     "national": 729,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BRIONNE"
   },
   "947": {
     "name": "Primarina",
     "national": 730,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PRIMARINA"
   },
   "948": {
     "name": "Pikipek",
     "national": 731,
-    "borrius": 32
+    "borrius": 32,
+    "speciesKey": "SPECIES_PIKIPEK"
   },
   "949": {
     "name": "Trumbeak",
     "national": 732,
-    "borrius": 33
+    "borrius": 33,
+    "speciesKey": "SPECIES_TRUMBEAK"
   },
   "950": {
     "name": "Toucannon",
     "national": 733,
-    "borrius": 34
+    "borrius": 34,
+    "speciesKey": "SPECIES_TOUCANNON"
   },
   "951": {
     "name": "Yungoos",
     "national": 734,
-    "borrius": 205
+    "borrius": 205,
+    "speciesKey": "SPECIES_YUNGOOS"
   },
   "952": {
     "name": "Gumshoos",
     "national": 735,
-    "borrius": 206
+    "borrius": 206,
+    "speciesKey": "SPECIES_GUMSHOOS"
   },
   "953": {
     "name": "Grubbin",
     "national": 736,
-    "borrius": 241
+    "borrius": 241,
+    "speciesKey": "SPECIES_GRUBBIN"
   },
   "954": {
     "name": "Charjabug",
     "national": 737,
-    "borrius": 242
+    "borrius": 242,
+    "speciesKey": "SPECIES_CHARJABUG"
   },
   "955": {
     "name": "Vikavolt",
     "national": 738,
-    "borrius": 243
+    "borrius": 243,
+    "speciesKey": "SPECIES_VIKAVOLT"
   },
   "956": {
     "name": "Crabrawler",
     "national": 739,
-    "borrius": 237
+    "borrius": 237,
+    "speciesKey": "SPECIES_CRABRAWLER"
   },
   "958": {
     "name": "Oricorio",
     "national": 741,
-    "borrius": 83
+    "borrius": 83,
+    "speciesKey": "SPECIES_ORICORIO"
   },
   "959": {
     "name": "Cutiefly",
     "national": 742,
-    "borrius": 81
+    "borrius": 81,
+    "speciesKey": "SPECIES_CUTIEFLY"
   },
   "960": {
     "name": "Ribombee",
     "national": 743,
-    "borrius": 82
+    "borrius": 82,
+    "speciesKey": "SPECIES_RIBOMBEE"
   },
   "961": {
     "name": "Rockruff",
     "national": 744,
-    "borrius": 334
+    "borrius": 334,
+    "speciesKey": "SPECIES_ROCKRUFF"
   },
   "962": {
     "name": "Lycanroc",
     "national": 745,
-    "borrius": 335
+    "borrius": 335,
+    "speciesKey": "SPECIES_LYCANROC"
   },
   "963": {
     "name": "Wishiwashi",
     "national": 746,
-    "borrius": 289
+    "borrius": 289,
+    "speciesKey": "SPECIES_WISHIWASHI"
   },
   "964": {
     "name": "Mareanie",
     "national": 747,
-    "borrius": 481
+    "borrius": 481,
+    "speciesKey": "SPECIES_MAREANIE"
   },
   "965": {
     "name": "Toxapex",
     "national": 748,
-    "borrius": 482
+    "borrius": 482,
+    "speciesKey": "SPECIES_TOXAPEX"
   },
   "966": {
     "name": "Mudbray",
     "national": 749,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUDBRAY"
   },
   "967": {
     "name": "Mudsdale",
     "national": 750,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MUDSDALE"
   },
   "968": {
     "name": "Dewpider",
     "national": 751,
-    "borrius": 66
+    "borrius": 66,
+    "speciesKey": "SPECIES_DEWPIDER"
   },
   "969": {
     "name": "Araquanid",
     "national": 752,
-    "borrius": 67
+    "borrius": 67,
+    "speciesKey": "SPECIES_ARAQUANID"
   },
   "970": {
     "name": "Fomantis",
     "national": 753,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FOMANTIS"
   },
   "971": {
     "name": "Lurantis",
     "national": 754,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LURANTIS"
   },
   "972": {
     "name": "Morelull",
     "national": 755,
-    "borrius": 444
+    "borrius": 444,
+    "speciesKey": "SPECIES_MORELULL"
   },
   "973": {
     "name": "Shiinotic",
     "national": 756,
-    "borrius": 445
+    "borrius": 445,
+    "speciesKey": "SPECIES_SHIINOTIC"
   },
   "974": {
     "name": "Salandit",
     "national": 757,
-    "borrius": 140
+    "borrius": 140,
+    "speciesKey": "SPECIES_SALANDIT"
   },
   "975": {
     "name": "Salazzle",
     "national": 758,
-    "borrius": 141
+    "borrius": 141,
+    "speciesKey": "SPECIES_SALAZZLE"
   },
   "976": {
     "name": "Stufful",
     "national": 759,
-    "borrius": 48
+    "borrius": 48,
+    "speciesKey": "SPECIES_STUFFUL"
   },
   "977": {
     "name": "Bewear",
     "national": 760,
-    "borrius": 49
+    "borrius": 49,
+    "speciesKey": "SPECIES_BEWEAR"
   },
   "978": {
     "name": "Bounsweet",
     "national": 761,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BOUNSWEET"
   },
   "979": {
     "name": "Steenee",
     "national": 762,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_STEENEE"
   },
   "980": {
     "name": "Tsareena",
     "national": 763,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TSAREENA"
   },
   "981": {
     "name": "Comfey",
     "national": 764,
-    "borrius": 92
+    "borrius": 92,
+    "speciesKey": "SPECIES_COMFEY"
   },
   "982": {
     "name": "Oranguru",
     "national": 765,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ORANGURU"
   },
   "983": {
     "name": "Passimian",
     "national": 766,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PASSIMIAN"
   },
   "984": {
     "name": "Wimpod",
     "national": 767,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WIMPOD"
   },
   "985": {
     "name": "Golisopod",
     "national": 768,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GOLISOPOD"
   },
   "986": {
     "name": "Sandygast",
     "national": 769,
-    "borrius": 74
+    "borrius": 74,
+    "speciesKey": "SPECIES_SANDYGAST"
   },
   "987": {
     "name": "Palossand",
     "national": 770,
-    "borrius": 75
+    "borrius": 75,
+    "speciesKey": "SPECIES_PALOSSAND"
   },
   "988": {
     "name": "Pyukumuku",
     "national": 771,
-    "borrius": 394
+    "borrius": 394,
+    "speciesKey": "SPECIES_PYUKUMUKU"
   },
   "989": {
     "name": "Type: Null",
     "national": 772,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TYPE_NULL"
   },
   "990": {
     "name": "Silvally",
     "national": 773,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SILVALLY"
   },
   "991": {
     "name": "Minior",
     "national": 774,
-    "borrius": 8
+    "borrius": 8,
+    "speciesKey": "SPECIES_MINIOR_SHIELD"
   },
   "992": {
     "name": "Komala",
     "national": 775,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KOMALA"
   },
   "993": {
     "name": "Turtonator",
     "national": 776,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TURTONATOR"
   },
   "994": {
     "name": "Togedemaru",
     "national": 777,
-    "borrius": 268
+    "borrius": 268,
+    "speciesKey": "SPECIES_TOGEDEMARU"
   },
   "995": {
     "name": "Mimikyu",
     "national": 778,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MIMIKYU"
   },
   "996": {
     "name": "Bruxish",
     "national": 779,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BRUXISH"
   },
   "997": {
     "name": "Drampa",
     "national": 780,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRAMPA"
   },
   "998": {
     "name": "Dhelmise",
     "national": 781,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DHELMISE"
   },
   "999": {
     "name": "Jangmo-o",
     "national": 782,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_JANGMO_O"
   },
   "1000": {
     "name": "Hakamo-o",
     "national": 783,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HAKAMO_O"
   },
   "1001": {
     "name": "Kommo-o",
     "national": 784,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KOMMO_O"
   },
   "1002": {
     "name": "Tapu Koko",
     "national": 785,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TAPU_KOKO"
   },
   "1003": {
     "name": "Tapu Lele",
     "national": 786,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TAPU_LELE"
   },
   "1004": {
     "name": "Tapu Bulu",
     "national": 787,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TAPU_BULU"
   },
   "1005": {
     "name": "Tapu Fini",
     "national": 788,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TAPU_FINI"
   },
   "1006": {
     "name": "Cosmog",
     "national": 789,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COSMOG"
   },
   "1007": {
     "name": "Cosmoem",
     "national": 790,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COSMOEM"
   },
   "1008": {
     "name": "Solgaleo",
     "national": 791,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SOLGALEO"
   },
   "1009": {
     "name": "Lunala",
     "national": 792,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_LUNALA"
   },
   "1010": {
     "name": "Nihilego",
     "national": 793,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NIHILEGO"
   },
   "1011": {
     "name": "Buzzwole",
     "national": 794,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BUZZWOLE"
   },
   "1012": {
     "name": "Pheromosa",
     "national": 795,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PHEROMOSA"
   },
   "1013": {
     "name": "Xurkitree",
     "national": 796,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_XURKITREE"
   },
   "1014": {
     "name": "Celesteela",
     "national": 797,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CELESTEELA"
   },
   "1015": {
     "name": "Kartana",
     "national": 798,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KARTANA"
   },
   "1016": {
     "name": "Guzzlord",
     "national": 799,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GUZZLORD"
   },
   "1017": {
     "name": "Necrozma",
     "national": 800,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NECROZMA"
   },
   "1018": {
     "name": "Magearna",
     "national": 801,
-    "borrius": 496
+    "borrius": 496,
+    "speciesKey": "SPECIES_MAGEARNA"
   },
   "1019": {
     "name": "Marshadow",
     "national": 802,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MARSHADOW"
   },
   "1074": {
     "name": "Poipole",
     "national": 803,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_POIPOLE"
   },
   "1075": {
     "name": "Naganadel",
     "national": 804,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NAGANADEL"
   },
   "1076": {
     "name": "Stakataka",
     "national": 805,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_STAKATAKA"
   },
   "1078": {
     "name": "Zeraora",
     "national": 807,
-    "borrius": 497
+    "borrius": 497,
+    "speciesKey": "SPECIES_ZERAORA"
   },
   "1083": {
     "name": "Meltan",
     "national": 808,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MELTAN"
   },
   "1084": {
     "name": "Melmetal",
     "national": 809,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MELMETAL"
   },
   "1102": {
     "name": "Grookey",
     "national": 810,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GROOKEY"
   },
   "1103": {
     "name": "Thwackey",
     "national": 811,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_THWACKEY"
   },
   "1104": {
     "name": "Rillaboom",
     "national": 812,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RILLABOOM"
   },
   "1105": {
     "name": "Scorbunny",
     "national": 813,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SCORBUNNY"
   },
   "1106": {
     "name": "Raboot",
     "national": 814,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RABOOT"
   },
   "1107": {
     "name": "Cinderace",
     "national": 815,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CINDERACE"
   },
   "1108": {
     "name": "Sobble",
     "national": 816,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SOBBLE"
   },
   "1109": {
     "name": "Drizzile",
     "national": 817,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRIZZILE"
   },
   "1110": {
     "name": "Inteleon",
     "national": 818,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_INTELEON"
   },
   "1111": {
     "name": "Skwovet",
     "national": 819,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SKWOVET"
   },
   "1112": {
     "name": "Greedent",
     "national": 820,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GREEDENT"
   },
   "1113": {
     "name": "Rookidee",
     "national": 821,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ROOKIDEE"
   },
   "1116": {
     "name": "Blipbug",
     "national": 824,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BLIPBUG"
   },
   "1117": {
     "name": "Dottler",
     "national": 825,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DOTTLER"
   },
   "1118": {
     "name": "Orbeetle",
     "national": 826,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ORBEETLE"
   },
   "1119": {
     "name": "Nickit",
     "national": 827,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_NICKIT"
   },
   "1120": {
     "name": "Thievul",
     "national": 828,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_THIEVUL"
   },
   "1121": {
     "name": "Gossifleur",
     "national": 829,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GOSSIFLEUR"
   },
   "1122": {
     "name": "Eldegoss",
     "national": 830,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ELDEGOSS"
   },
   "1123": {
     "name": "Wooloo",
     "national": 831,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_WOOLOO"
   },
   "1124": {
     "name": "Dubwool",
     "national": 832,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DUBWOOL"
   },
   "1125": {
     "name": "Chewtle",
     "national": 833,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CHEWTLE"
   },
   "1126": {
     "name": "Drednaw",
     "national": 834,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DREDNAW"
   },
   "1127": {
     "name": "Yamper",
     "national": 835,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_YAMPER"
   },
   "1128": {
     "name": "Boltund",
     "national": 836,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_BOLTUND"
   },
   "1129": {
     "name": "Rolycoly",
     "national": 837,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ROLYCOLY"
   },
   "1130": {
     "name": "Carkol",
     "national": 838,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CARKOL"
   },
   "1131": {
     "name": "Coalossal",
     "national": 839,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COALOSSAL"
   },
   "1132": {
     "name": "Applin",
     "national": 840,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_APPLIN"
   },
   "1133": {
     "name": "Flapple",
     "national": 841,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FLAPPLE"
   },
   "1134": {
     "name": "Appletun",
     "national": 842,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_APPLETUN"
   },
   "1135": {
     "name": "Silicobra",
     "national": 843,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SILICOBRA"
   },
   "1136": {
     "name": "Sandaconda",
     "national": 844,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SANDACONDA"
   },
   "1137": {
     "name": "Cramorant",
     "national": 845,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CRAMORANT"
   },
   "1138": {
     "name": "Arrokuda",
     "national": 846,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARROKUDA"
   },
   "1140": {
     "name": "Toxel",
     "national": 848,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOXEL"
   },
   "1141": {
     "name": "Toxtricity",
     "national": 849,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_TOXTRICITY"
   },
   "1142": {
     "name": "Sizzlipede",
     "national": 850,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SIZZLIPEDE"
   },
   "1144": {
     "name": "Clobbopus",
     "national": 852,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CLOBBOPUS"
   },
   "1145": {
     "name": "Grapploct",
     "national": 853,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GRAPPLOCT"
   },
   "1146": {
     "name": "Sinistea",
     "national": 854,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SINISTEA"
   },
   "1148": {
     "name": "Hatenna",
     "national": 856,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HATENNA"
   },
   "1149": {
     "name": "Hattrem",
     "national": 857,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HATTREM"
   },
   "1150": {
     "name": "Hatterene",
     "national": 858,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_HATTERENE"
   },
   "1151": {
     "name": "Impidimp",
     "national": 859,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_IMPIDIMP"
   },
   "1152": {
     "name": "Morgrem",
     "national": 860,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MORGREM"
   },
   "1153": {
     "name": "Grimmsnarl",
     "national": 861,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GRIMMSNARL"
   },
   "1154": {
     "name": "Obstagoon",
     "national": 862,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_OBSTAGOON"
   },
   "1155": {
     "name": "Perrserker",
     "national": 863,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PERRSERKER"
   },
   "1156": {
     "name": "Cursola",
     "national": 864,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CURSOLA"
   },
   "1157": {
     "name": "Sirfetch'd",
     "national": 865,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SIRFETCHD"
   },
   "1158": {
     "name": "Mr? Rime",
     "national": 866,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MR_RIME"
   },
   "1159": {
     "name": "Runerigus",
     "national": 867,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_RUNERIGUS"
   },
   "1160": {
     "name": "Milcery",
     "national": 868,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MILCERY"
   },
   "1161": {
     "name": "Alcremie",
     "national": 869,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ALCREMIE_STRAWBERRY"
   },
   "1162": {
     "name": "Falinks",
     "national": 870,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FALINKS"
   },
   "1163": {
     "name": "Pincurchin",
     "national": 871,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_PINCURCHIN"
   },
   "1164": {
     "name": "Snom",
     "national": 872,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SNOM"
   },
   "1165": {
     "name": "Frosmoth",
     "national": 873,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_FROSMOTH"
   },
   "1167": {
     "name": "Eiscue",
     "national": 875,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_EISCUE"
   },
   "1168": {
     "name": "Indeedee",
     "national": 876,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_INDEEDEE"
   },
   "1169": {
     "name": "Morpeko",
     "national": 877,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_MORPEKO"
   },
   "1170": {
     "name": "Cufant",
     "national": 878,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CUFANT"
   },
   "1171": {
     "name": "Copperajah",
     "national": 879,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_COPPERAJAH"
   },
   "1172": {
     "name": "Dracozolt",
     "national": 880,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRACOZOLT"
   },
   "1173": {
     "name": "Arctozolt",
     "national": 881,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARCTOZOLT"
   },
   "1174": {
     "name": "Dracovish",
     "national": 882,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRACOVISH"
   },
   "1175": {
     "name": "Arctovish",
     "national": 883,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ARCTOVISH"
   },
   "1176": {
     "name": "Duraludon",
     "national": 884,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DURALUDON"
   },
   "1177": {
     "name": "Dreepy",
     "national": 885,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DREEPY"
   },
   "1178": {
     "name": "Drakloak",
     "national": 886,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRAKLOAK"
   },
   "1179": {
     "name": "Dragapult",
     "national": 887,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_DRAGAPULT"
   },
   "1180": {
     "name": "Zacian",
     "national": 888,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZACIAN"
   },
   "1181": {
     "name": "Zamazenta",
     "national": 889,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZAMAZENTA"
   },
   "1182": {
     "name": "Eternatus",
     "national": 890,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ETERNATUS"
   },
   "1183": {
     "name": "Kubfu",
     "national": 891,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_KUBFU"
   },
   "1184": {
     "name": "Urshifu",
     "national": 892,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_URSHIFU_SINGLE"
   },
   "1185": {
     "name": "Zarude",
     "national": 893,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_ZARUDE"
   },
   "1186": {
     "name": "Regieleki",
     "national": 894,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_REGIELEKI"
   },
   "1187": {
     "name": "Regidrago",
     "national": 895,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_REGIDRAGO"
   },
   "1188": {
     "name": "Glastrier",
     "national": 896,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_GLASTRIER"
   },
   "1189": {
     "name": "Spectrier",
     "national": 897,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_SPECTRIER"
   },
   "1190": {
     "name": "Calyrex",
     "national": 898,
-    "borrius": 0
+    "borrius": 0,
+    "speciesKey": "SPECIES_CALYREX"
   },
   "29": {
     "name": "Nidoran♀",
     "national": 29,
-    "borrius": 161
+    "borrius": 161,
+    "speciesKey": "SPECIES_NIDORAN_F"
   },
   "32": {
     "name": "Nidoran♂",
     "national": 32,
-    "borrius": 158
+    "borrius": 158,
+    "speciesKey": "SPECIES_NIDORAN_M"
   },
   "770": {
     "name": "Fletchinder",
     "national": 662,
-    "borrius": 332
+    "borrius": 332,
+    "speciesKey": "SPECIES_FLETCHINDER"
   },
   "777": {
     "name": "Flabébé",
     "national": 669,
-    "borrius": 78
+    "borrius": 78,
+    "speciesKey": "SPECIES_FLABEBE"
   },
   "957": {
     "name": "Crabominable",
     "national": 740,
-    "borrius": 238
+    "borrius": 238,
+    "speciesKey": "SPECIES_CRABOMINABLE"
   },
   "1023": {
     "name": "Sandshrew",
     "national": 27,
-    "borrius": 30
+    "borrius": 30,
+    "speciesKey": "SPECIES_SANDSHREW_A"
   },
   "1024": {
     "name": "Sandslash",
     "national": 28,
-    "borrius": 31
+    "borrius": 31,
+    "speciesKey": "SPECIES_SANDSLASH_A"
   }
 }
