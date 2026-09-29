@@ -4,7 +4,7 @@ Run with: python app.py
 Then open http://localhost:5000
 """
 
-import struct, json, base64, math, re, sys, urllib.request
+import struct, json, base64, math, re, sys, urllib.request, uuid, hashlib
 from pathlib import Path
 from flask import Flask, request, jsonify, send_from_directory
 import vault_boxes as cb
@@ -40,16 +40,28 @@ LAST_UPLOAD_FILE = UPLOADS_DIR / "last_uploaded.sav"
 LAST_UPLOAD_METADATA_FILE = UPLOADS_DIR / "last_uploaded.json"
 
 def save_last_upload(raw, filename):
-    """Atomically replace the saved copy and retain its display name."""
+    """Atomically replace the saved copy and retain its display name and view ID."""
     temp_file = UPLOADS_DIR / "last_uploaded.tmp"
     temp_metadata = UPLOADS_DIR / "last_uploaded.json.tmp"
+    save_id = uuid.uuid4().hex
     temp_file.write_bytes(raw)
     temp_file.replace(LAST_UPLOAD_FILE)
     temp_metadata.write_text(
-        json.dumps({"filename": Path(filename or "save.sav").name}),
+        json.dumps({"filename": Path(filename or "save.sav").name, "dex_save_id": save_id}),
         encoding="utf-8",
     )
     temp_metadata.replace(LAST_UPLOAD_METADATA_FILE)
+    return save_id
+
+def last_upload_dex_id(raw):
+    """Return the stored view ID, including a stable fallback for older uploads."""
+    try:
+        save_id = json.loads(LAST_UPLOAD_METADATA_FILE.read_text(encoding="utf-8")).get("dex_save_id")
+        if isinstance(save_id, str) and save_id:
+            return save_id, False
+    except (OSError, ValueError, AttributeError):
+        pass
+    return hashlib.sha256(raw).hexdigest(), True
 
 def last_upload_name():
     try:
@@ -1732,12 +1744,14 @@ def api_load():
         return jsonify({"error": str(e)}), 500
 
     try:
-        save_last_upload(raw, f.filename)
+        save_id = save_last_upload(raw, f.filename)
     except OSError as e:
         return jsonify({"error": f"Could not save uploaded file in the container: {e}"}), 500
 
     session["data"] = data
     session["sections"] = find_active_sections(data)
+    session["dex_save_id"] = save_id
+    session["dex_manual_legacy"] = False
 
     return jsonify({"ok": True, "save": result, "filename": f.filename})
 
@@ -1769,6 +1783,7 @@ def api_load_last_upload():
     session["db"] = db
     session["data"] = data
     session["sections"] = find_active_sections(data)
+    session["dex_save_id"], session["dex_manual_legacy"] = last_upload_dex_id(raw)
     return jsonify({"ok": True, "save": result, "filename": last_upload_name()})
 
 @app.route("/api/move", methods=["POST"])
@@ -2008,6 +2023,8 @@ def api_dex_flags():
         "ok":     True,
         "seen":   decode(seen_bytes),
         "caught": decode(caught_bytes),
+        "save_id": session.get("dex_save_id", ""),
+        "legacy_manual_caught": session.get("dex_manual_legacy", False),
     })
 
 
@@ -3007,6 +3024,8 @@ def api_load_recent():
     session["data"] = list(raw)
     parsed = parse_save(bytearray(raw), db)
     session["sections"] = None
+    session["dex_save_id"] = "recent:" + hashlib.sha256(str(p.resolve()).encode("utf-8") + b"\0" + raw).hexdigest()
+    session["dex_manual_legacy"] = False
     trainer = parsed.get("trainer", {})
     record_recent_save(str(p.resolve()), p.name, trainer.get("name",""), trainer.get("tid", 0))
     return jsonify({"ok": True, "save": parsed, "filename": p.name})

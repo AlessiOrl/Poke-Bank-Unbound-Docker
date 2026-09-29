@@ -283,9 +283,9 @@ export async function baseStats(): Promise<Record<number, Record<string, number>
   return resp.json()
 }
 
-export async function dexFlags(): Promise<{ seen: number[]; caught: number[] }> {
-  const data = await request<{ ok: boolean; seen: number[]; caught: number[] }>('/api/dex_flags')
-  return { seen: data.seen, caught: data.caught }
+export async function dexFlags(): Promise<{ seen: number[]; caught: number[]; save_id: string; legacy_manual_caught: boolean }> {
+  const data = await request<{ ok: boolean; seen: number[]; caught: number[]; save_id: string; legacy_manual_caught: boolean }>('/api/dex_flags')
+  return { seen: data.seen, caught: data.caught, save_id: data.save_id, legacy_manual_caught: data.legacy_manual_caught }
 }
 
 // ── Bulk move ─────────────────────────────────────────────────────────────────

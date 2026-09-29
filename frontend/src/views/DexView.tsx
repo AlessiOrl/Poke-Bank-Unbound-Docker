@@ -9,6 +9,25 @@ const ALL_TYPES = [
 
 type Filter = 'all' | 'caught' | 'seen' | 'missing' | 'evolve'
 type DexTab = 'national' | 'borrius'
+const MANUAL_CAUGHT_KEY = 'unboundbank_manual_dex_caught'
+
+function loadManualCaught(saveId: string, migrateLegacy: boolean): Set<number> {
+  if (!saveId) return new Set()
+  try {
+    const key = `${MANUAL_CAUGHT_KEY}:${saveId}`
+    const current = localStorage.getItem(key)
+    const legacy = current === null && migrateLegacy ? localStorage.getItem(MANUAL_CAUGHT_KEY) : null
+    const stored = JSON.parse(current ?? legacy ?? '[]')
+    const marks = new Set<number>(Array.isArray(stored) ? stored.filter((n): n is number => Number.isInteger(n) && n > 0) : [])
+    if (legacy !== null) {
+      localStorage.setItem(key, JSON.stringify([...marks]))
+      localStorage.removeItem(MANUAL_CAUGHT_KEY)
+    }
+    return marks
+  } catch {
+    return new Set()
+  }
+}
 
 // These forms share a display name with another entry or use a more specific wiki page.
 const WIKI_SLUG_OVERRIDES: Record<number, string> = {
@@ -45,6 +64,8 @@ interface SpeciesCard {
 export function DexView() {
   const manifest = useSpriteManifest()
   const [caught, setCaught] = useState<Set<number>>(new Set())
+  const [manualCaught, setManualCaught] = useState<Set<number>>(new Set())
+  const [saveId, setSaveId] = useState<string | null>(null)
   const [seen, setSeen] = useState<Set<number>>(new Set())
   const [dexSpecies, setDexSpecies] = useState<Record<string, DexSpeciesEntry>>({})
   const [typeMap, setTypeMap] = useState<Record<string, string[]>>({})
@@ -71,6 +92,8 @@ export function DexView() {
       .then(([flags, species, types, evo, locs, prefs]) => {
         setCaught(new Set(flags.caught))
         setSeen(new Set(flags.seen))
+        setManualCaught(loadManualCaught(flags.save_id, flags.legacy_manual_caught))
+        setSaveId(flags.save_id)
         setDexSpecies(species)
         setTypeMap(types)
         setEvoSpecies(new Set(Object.keys(evo).map(Number)))
@@ -81,17 +104,26 @@ export function DexView() {
       .finally(() => setLoading(false))
   }, [])
 
+  useEffect(() => {
+    if (!saveId) return
+    try {
+      localStorage.setItem(`${MANUAL_CAUGHT_KEY}:${saveId}`, JSON.stringify([...manualCaught]))
+    } catch {
+      // The view still works when browser storage is unavailable.
+    }
+  }, [manualCaught, saveId])
+
   const cards: SpeciesCard[] = useMemo(() => {
     return Object.entries(dexSpecies).map(([id, entry]) => ({
       id: Number(id),
       entry,
       types: typeMap[id] || [],
       canEvo: evoSpecies.has(Number(id)),
-      isCaught: caught.has(entry.national),
-      isSeen: seen.has(entry.national),
+      isCaught: caught.has(entry.national) || manualCaught.has(entry.national),
+      isSeen: seen.has(entry.national) || caught.has(entry.national) || manualCaught.has(entry.national),
       sortKey: tab === 'borrius' ? (entry.borrius || 99999) : (entry.national || 99999),
     }))
-  }, [dexSpecies, typeMap, evoSpecies, caught, seen, tab])
+  }, [dexSpecies, typeMap, evoSpecies, caught, manualCaught, seen, tab])
 
   const filtered = useMemo(() => {
     let list = cards
@@ -126,6 +158,15 @@ export function DexView() {
 
   function handleToggleShiny() {
     setShowShiny(s => !s)
+  }
+
+  function handleToggleManualCaught(national: number) {
+    setManualCaught(previous => {
+      const next = new Set(previous)
+      if (next.has(national)) next.delete(national)
+      else next.add(national)
+      return next
+    })
   }
 
   if (loading) {
@@ -303,7 +344,7 @@ export function DexView() {
             onClick={e => e.stopPropagation()}
           >
             {(() => {
-              const card = filtered.find(c => c.id === selectedId)
+              const card = cards.find(c => c.id === selectedId)
               if (!card) return null
               const dexNum = tab === 'borrius' ? card.entry.borrius : card.entry.national
               const locationData = locations[card.entry.name]
@@ -338,6 +379,18 @@ export function DexView() {
                       )}
                     </div>
                   </div>
+                  {!caught.has(card.entry.national) && (
+                    <div className="mt-4">
+                      <button
+                        type="button"
+                        onClick={() => handleToggleManualCaught(card.entry.national)}
+                        className={`w-full py-2 rounded text-xs font-semibold transition-colors ${manualCaught.has(card.entry.national) ? 'bg-slate-700 hover:bg-slate-600 text-white' : 'bg-emerald-700 hover:bg-emerald-600 text-white'}`}
+                      >
+                        {manualCaught.has(card.entry.national) ? 'Undo caught mark' : 'Mark as caught'}
+                      </button>
+                      <p className="mt-1 text-center text-[10px] text-slate-500">Manual marks stay with this save in your browser; the save file is unchanged.</p>
+                    </div>
+                  )}
                   {locationData && locationData.locations.length > 0 && (
                     <div className="mt-4 pt-4 border-t border-slate-700">
                       <p className="text-slate-400 text-xs uppercase tracking-wide mb-2">Where to find</p>
